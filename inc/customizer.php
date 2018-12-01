@@ -2184,6 +2184,141 @@ $wp_customize->add_control(
 );
 
 
+/*******************
+    DOORDASH BACKEND POST
+*******************/
+
+$wp_customize->add_section(
+  'neori_doordash_backend_posts_section',
+    array(
+      'title'      => 'Backend Posts', 'neori',
+      'priority'   => 15,
+    )
+);
+
+/* Category name */
+
+$wp_customize->add_setting(
+  'neori_doordash_backend_posts_category_name_setting',
+    array(
+      'default'     => '',
+      'sanitize_callback' => 'wp_filter_nohtml_kses'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_backend_posts_category_name_control',
+				array(
+					'label'      => 'Category Name',
+					'description' => 'used to display the Title',
+					'section'    => 'neori_doordash_backend_posts_section',
+					'settings'   => 'neori_doordash_backend_posts_category_name_setting',
+					'type'		 => 'text',
+					'priority'	 => 1
+				)
+  )
+);
+
+/* Category slug */
+
+$wp_customize->add_setting(
+  'neori_doordash_backend_posts_category_slug_setting',
+    array(
+      'default'     => '',
+      'sanitize_callback' => 'wp_filter_nohtml_kses'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_backend_posts_category_slug_control',
+				array(
+					'label'      => 'Category Slug',
+					'description' => 'just write the category slug from which you want to display posts in this Slice. In most cases it is the same as the category name. It can be found in the Dashboard > Posts > Categories section',
+					'section'    => 'neori_doordash_backend_posts_section',
+					'settings'   => 'neori_doordash_backend_posts_category_slug_setting',
+					'type'		 => 'text',
+					'priority'	 => 2
+				)
+  )
+);
+
+/* Number of posts */
+
+$wp_customize->add_setting(
+  'neori_doordash_backend_posts_posts_number_setting',
+    array(
+      'default'     => '',
+      'sanitize_callback' => 'wp_filter_nohtml_kses'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_backend_posts_posts_number_control',
+				array(
+					'label'      => 'Posts Number',
+					'section'    => 'neori_doordash_backend_posts_section',
+					'settings'   => 'neori_doordash_backend_posts_posts_number_setting',
+					'type'		 => 'text',
+					'priority'	 => 3
+				)
+  )
+);
+
+/* Custom Excerpt */
+
+$wp_customize->add_setting(
+  'neori_doordash_backend_posts_custom_excerpt_setting',
+    array(
+	   'default'     => false,
+	   'sanitize_callback' => 'neori_sanitize_checkbox'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_backend_posts_custom_excerpt_control',
+				array(
+          'label'      => 'Custom Excerpt',
+          'description' => 'If you enable this option, you will have the possibility to write your own excerpts from the Post Editor.',
+					'section'    => 'neori_doordash_backend_posts_section',
+					'settings'   => 'neori_doordash_backend_posts_custom_excerpt_setting',
+					'type'		 => 'checkbox',
+					'priority'	 => 4
+				)
+  )
+);
+
+/* Offset posts */
+
+$wp_customize->add_setting(
+  'neori_doordash_backend_posts_offset_posts_setting',
+    array(
+      'default'     => '',
+      'sanitize_callback' => 'wp_filter_nohtml_kses'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_backend_posts_offset_posts_control',
+				array(
+          'label'      => 'OPTIONAL: Offset posts',
+          'description' => 'With this option you can offset the posts shown in the Slice',
+					'section'    => 'neori_doordash_backend_posts_section',
+					'settings'   => 'neori_doordash_backend_posts_offset_posts_setting',
+					'type'		 => 'text',
+					'priority'	 => 5
+				)
+  )
+);
 
 /*--------------------------------------------
 //          POSTMESSAGE SUPPORT             //
