@@ -526,9 +526,18 @@ function neori_doordash_popular_posts() {
 
 }
 
+function neori_doordash_web_posts() {
+
+  ob_start();
+  get_template_part( 'template-parts/slices/doordash-web-posts' );
+  return ob_get_clean();
+
+}
+
 function doordash_setup() {
 
   add_shortcode( 'doordash_popular_posts', 'neori_doordash_popular_posts' );
+  add_shortcode( 'doordash_web_posts', 'neori_doordash_web_posts' );
 
 }
 add_action( 'after_setup_theme', 'doordash_setup' );

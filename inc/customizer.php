@@ -1871,6 +1871,45 @@ $wp_customize->add_control(
 );
 
 
+
+/*******************
+    PAGINATION
+*******************/
+
+$wp_customize->add_section(
+  'neori_pagination_section' ,
+    array(
+      'title'      => 'Pagination', 'neori',
+      'priority'   => 12,
+    )
+);
+
+/* Enable numbered pagination */
+
+$wp_customize->add_setting(
+  'neori_enable_numbered_pagination_setting',
+    array(
+	   'default'     => false,
+	   'sanitize_callback' => 'neori_sanitize_checkbox'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_enable_numbered_pagination_control',
+				array(
+          'label'      => 'Enable numbered pagination',
+          'description' => 'If you check this box, the classic pagination will be replaced with numbered pagination in all Blog, Archive, Category, Author, and Search pages.',
+					'section'    => 'neori_pagination_section',
+					'settings'   => 'neori_enable_numbered_pagination_setting',
+					'type'		 => 'checkbox',
+					'priority'	 => 1
+				)
+  )
+);
+
+
 /*******************
     DOORDASH POPULAR POST
 *******************/
@@ -1879,7 +1918,7 @@ $wp_customize->add_section(
   'neori_doordash_popular_posts_section',
     array(
       'title'      => 'Popular Posts', 'neori',
-      'priority'   => 5,
+      'priority'   => 13,
     )
 );
 
@@ -2008,23 +2047,96 @@ $wp_customize->add_control(
 );
 
 
-
 /*******************
-    PAGINATION
+    DOORDASH WEB POST
 *******************/
 
 $wp_customize->add_section(
-  'neori_pagination_section' ,
+  'neori_doordash_web_posts_section',
     array(
-      'title'      => 'Pagination', 'neori',
-      'priority'   => 12,
+      'title'      => 'Web Posts', 'neori',
+      'priority'   => 14,
     )
 );
 
-/* Enable numbered pagination */
+/* Category name */
 
 $wp_customize->add_setting(
-  'neori_enable_numbered_pagination_setting',
+  'neori_doordash_web_posts_category_name_setting',
+    array(
+      'default'     => '',
+      'sanitize_callback' => 'wp_filter_nohtml_kses'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_web_posts_category_name_control',
+				array(
+					'label'      => 'Category Name',
+					'description' => 'used to display the Title',
+					'section'    => 'neori_doordash_web_posts_section',
+					'settings'   => 'neori_doordash_web_posts_category_name_setting',
+					'type'		 => 'text',
+					'priority'	 => 1
+				)
+  )
+);
+
+/* Category slug */
+
+$wp_customize->add_setting(
+  'neori_doordash_web_posts_category_slug_setting',
+    array(
+      'default'     => '',
+      'sanitize_callback' => 'wp_filter_nohtml_kses'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_web_posts_category_slug_control',
+				array(
+					'label'      => 'Category Slug',
+					'description' => 'just write the category slug from which you want to display posts in this Slice. In most cases it is the same as the category name. It can be found in the Dashboard > Posts > Categories section',
+					'section'    => 'neori_doordash_web_posts_section',
+					'settings'   => 'neori_doordash_web_posts_category_slug_setting',
+					'type'		 => 'text',
+					'priority'	 => 2
+				)
+  )
+);
+
+/* Number of posts */
+
+$wp_customize->add_setting(
+  'neori_doordash_web_posts_posts_number_setting',
+    array(
+      'default'     => '',
+      'sanitize_callback' => 'wp_filter_nohtml_kses'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_web_posts_posts_number_control',
+				array(
+					'label'      => 'Posts Number',
+					'section'    => 'neori_doordash_web_posts_section',
+					'settings'   => 'neori_doordash_web_posts_posts_number_setting',
+					'type'		 => 'text',
+					'priority'	 => 3
+				)
+  )
+);
+
+/* Custom Excerpt */
+
+$wp_customize->add_setting(
+  'neori_doordash_web_posts_custom_excerpt_setting',
     array(
 	   'default'     => false,
 	   'sanitize_callback' => 'neori_sanitize_checkbox'
@@ -2034,14 +2146,39 @@ $wp_customize->add_setting(
 $wp_customize->add_control(
   new WP_Customize_Control(
     $wp_customize,
-      'neori_enable_numbered_pagination_control',
+      'neori_doordash_web_posts_custom_excerpt_control',
 				array(
-          'label'      => 'Enable numbered pagination',
-          'description' => 'If you check this box, the classic pagination will be replaced with numbered pagination in all Blog, Archive, Category, Author, and Search pages.',
-					'section'    => 'neori_pagination_section',
-					'settings'   => 'neori_enable_numbered_pagination_setting',
+          'label'      => 'Custom Excerpt',
+          'description' => 'If you enable this option, you will have the possibility to write your own excerpts from the Post Editor.',
+					'section'    => 'neori_doordash_web_posts_section',
+					'settings'   => 'neori_doordash_web_posts_custom_excerpt_setting',
 					'type'		 => 'checkbox',
-					'priority'	 => 1
+					'priority'	 => 4
+				)
+  )
+);
+
+/* Offset posts */
+
+$wp_customize->add_setting(
+  'neori_doordash_web_posts_offset_posts_setting',
+    array(
+      'default'     => '',
+      'sanitize_callback' => 'wp_filter_nohtml_kses'
+    )
+);
+
+$wp_customize->add_control(
+  new WP_Customize_Control(
+    $wp_customize,
+      'neori_doordash_web_posts_offset_posts_control',
+				array(
+          'label'      => 'OPTIONAL: Offset posts',
+          'description' => 'With this option you can offset the posts shown in the Slice',
+					'section'    => 'neori_doordash_web_posts_section',
+					'settings'   => 'neori_doordash_web_posts_offset_posts_setting',
+					'type'		 => 'text',
+					'priority'	 => 5
 				)
   )
 );
