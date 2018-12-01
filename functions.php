@@ -513,3 +513,22 @@ function neori_register_required_plugins() {
   tgmpa( $plugins, $config );
 
 }
+
+/*******************
+    CUSTOM SLICES
+*******************/
+
+function neori_doordash_popular_posts() {
+
+  ob_start();
+  get_template_part( 'template-parts/slices/doordash-popular-posts' );
+  return ob_get_clean();
+
+}
+
+function doordash_setup() {
+
+  add_shortcode( 'doordash_popular_posts', 'neori_doordash_popular_posts' );
+
+}
+add_action( 'after_setup_theme', 'doordash_setup' );
