@@ -8,13 +8,15 @@
 
       <?php if(!get_theme_mod('neori_logo_image_setting')) : ?>
 
-        <div class="header-upper" style="height: 69px">
+        <div class="header-upper doordash-header" style="height: 69px">
+        <div>
 
         <div class="logo" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.png'); width: 163px; height: 69px;"><a href="<?php echo esc_url( home_url() );  ?>"><h1><?php bloginfo('name'); ?></h1></a></div>
 
       <?php else : ?>
 
-        <div class="header-upper" style="height: <?php echo esc_html( get_theme_mod ('neori_logo_height_setting', '')); ?>px;">
+        <div class="header-upper doordash-header" style="height: <?php echo esc_html( get_theme_mod ('neori_logo_height_setting', '')); ?>px;">
+        <div>
 
         <div class="logo" style="background-image: url('<?php echo get_theme_mod ('neori_logo_image_setting', ''); ?>'); width: <?php echo esc_html( get_theme_mod ('neori_logo_width_setting', '')); ?>px; height: <?php echo esc_html( get_theme_mod ('neori_logo_height_setting', '')); ?>px;"><a href="<?php echo esc_url( home_url() ); ?>"><h1><?php bloginfo('name'); ?></h1></a></div>
 
@@ -85,6 +87,16 @@
             </div><!-- /.social-icons -->
 
           </div><!-- /.logo-right -->
+
+          </div>
+
+          <div>
+            <h5 class="doordash-sign-up-text">Sign up for updates</h5>
+            <form class="doordash-email-form">
+              <input type="text" name="email" placeholder="Your email address" class="doordash-subscription-input" />
+              <input type="submit" value="Subscribe" class="doordash-subscription-submit" />
+            </form>
+          </div>
 
         </div><!-- /.header-upper -->
 
