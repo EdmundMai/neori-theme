@@ -44,14 +44,39 @@
 
     <p class="additional-text"><?php echo wp_kses_post( get_theme_mod ('neori_additional_footer_text_setting', '')); ?></p>
 
-    <nav class="main-navigation">
+    <nav class="main-navigation doordash-footer-navigation">
 
-      <?php
-        wp_nav_menu( array(
-          'theme_location' => 'footer-menu',
-          'fallback_cb' => 'false',
-        ) );
-        ?>
+      <div class="doordash-footer-column">
+        <h5 class="doordash-footer-header">Blog Categories</h5>
+        <?php
+          wp_nav_menu( array(
+            'theme_location' => 'footer-menu',
+            'fallback_cb' => 'false',
+            'menu_class' => 'doordash-footer-menu-list',
+          ) );
+          ?>
+      </div>
+
+      <div class="doordash-footer-column">
+        <h5 class="doordash-footer-header">Social</h5>
+        <ul class="doordash-footer-menu-list">
+          <li><a target="_blank" href="https://www.linkedin.com/company/doordash">LinkedIn</a></li>
+          <li><a target="_blank" href="https://www.glassdoor.com/Reviews/DoorDash-Reviews-E813073.htm">Glassdoor</a></li>
+          <li><a target="_blank" href="https://twitter.com/andyfang?lang=en">Twitter</a></li>
+          <li><a target="_blank" href="https://www.facebook.com/DoorDash/">Facebook</a></li>
+          <li><a target="_blank" href="http://instagram.com/doordash">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="doordash-footer-column">
+        <h5 class="doordash-footer-header">DoorDash Links</h5>
+        <ul class="doordash-footer-menu-list">
+          <li><a target="_blank" href="https://www.doordash.com/">DoorDash.com</a></li>
+          <li><a target="_blank" href="https://www.doordash.com/about/">About Us</a></li>
+          <li><a target="_blank" href="https://www.doordash.com/careers/">Careers</a></li>
+          <li><a target="_blank" href="http://blog.doordash.com/">Blog</a></li>
+        </ul>
+      </div>
 
     </nav><!-- #site-navigation -->
 
@@ -62,6 +87,22 @@
     <?php endif; ?>
 
   </div><!-- /.container -->
+xxxx
+<?php
+      function debug_to_console( $data ) {
+          $output = $data;
+          if ( is_array( $output ) )
+              $output = implode( ',', $output);
+
+          echo "<script>console.log( 'Debug Objects: " . $output . "' );</script>";
+      }
+      debug_to_console("pppppppp");
+      // $menu_items = wp_get_nav_menu_items(20);
+      // foreach($menu_item as $menu_items) {
+        // debug_to_console("xxxxxxx");
+        // echo '<a href="' . $menu_item->url . '">' . $menu_item->title . '</a>';
+      // }
+?>
 
 </footer>
 

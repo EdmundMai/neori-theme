@@ -3485,9 +3485,9 @@ header.ad .offcanvas-navigation .social-icons a {
 # Footer
 ----------------*/
 .footer {
-  margin: 0 auto 40px auto;
-  max-width: 830px;
   text-align: center;
+  background-color: #333333;
+  padding: 70px 165px 61px 165px;
 }
 
 .footer .social-icons {
@@ -6142,4 +6142,28 @@ div.wpcf7 .wpcf7-form-control {
   border-bottom-right-radius: 20px;
   background-color: #ff3008;
   margin-left: -2px;
+}
+
+.doordash-footer-navigation {
+  display: flex;
+}
+
+.doordash-footer-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.doordash-footer-header {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.doordash-footer-menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.doordash-footer-column ul li {
+  margin: 0;
 }
