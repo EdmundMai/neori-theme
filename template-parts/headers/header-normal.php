@@ -9,9 +9,9 @@
       <?php if(!get_theme_mod('neori_logo_image_setting')) : ?>
 
         <div class="header-upper doordash-header" style="height: 69px">
-        <div>
+        <div class="doordash-header-left">
 
-        <div class="logo" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.png'); width: 163px; height: 69px;"><a href="<?php echo esc_url( home_url() );  ?>"><h1><?php bloginfo('name'); ?></h1></a></div>
+        <div class="logo" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/dd-eng-logo@3x.png'); width: 531px; height: 43px;"><a href="<?php echo esc_url( home_url() );  ?>"><h1><?php bloginfo('name'); ?></h1></a></div>
 
       <?php else : ?>
 

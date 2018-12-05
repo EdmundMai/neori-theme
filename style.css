@@ -312,6 +312,7 @@ object {
 #2 - Custom CSS
 
 -----------------------------------------------------------------*/
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -6107,6 +6108,11 @@ div.wpcf7 .wpcf7-form-control {
   justify-content: space-between;
 }
 
+.doordash-header-left {
+  display: flex;
+  align-items: center;
+}
+
 .doordash-email-form {
   display: flex;
 }
@@ -6134,6 +6140,6 @@ div.wpcf7 .wpcf7-form-control {
   border: none;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #FF3008;
+  background-color: #ff3008;
   margin-left: -2px;
 }

@@ -37,7 +37,7 @@
 
         <?php if(!get_theme_mod('neori_small_logo_image_setting')) : ?>
 
-          <a href="<?php echo esc_url( home_url() );  ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-small.png" alt="logo"></a>
+          <a href="<?php echo esc_url( home_url() );  ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/dd-eng-logo.png" alt="logo"></a>
 
         <?php else : ?>
 
