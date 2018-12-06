@@ -6221,3 +6221,33 @@ div.wpcf7 .wpcf7-form-control {
   font-size: 15px;
   white-space: nowrap;
 }
+
+.doordash-related-posts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.doordash-related-post-row {
+  display: flex;
+  align-items: center;
+  margin: 21px 0;
+}
+
+.doordash-related-post-title {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  margin: 0;
+}
+
+.doordash-related-post-img {
+  width: 100px;
+  height: 64px;
+  margin-right: 12px;
+  border-radius: 5px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
+}
