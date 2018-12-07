@@ -6259,3 +6259,48 @@ div.wpcf7 .wpcf7-form-control {
   color: #a2a2a2;
   text-decoration: underline !important;
 }
+
+.doordash-heart-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*---------------------------------------------------------------
+
+Customizing the i-recommend-this heart button on single posts
+
+-----------------------------------------------------------------*/
+
+.dot-irecommendthis {
+  width: 50px;
+  display: inline-block;
+  background-image: url(./img/heart-normal@3x.png);
+  background-size: 22px 20px;
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  margin: 0 0 10px 0;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+.dot-irecommendthis.active {
+  background-image: url(./img/heart-active@3x.png);
+}
+
+.dot-irecommendthis-count {
+  font-size: 16px;
+  color: #555555;
+  margin-left: 12px;
+  line-height: 30px;
+}
+
+.single-top-area,
+.single-bottom-area {
+  position: relative;
+  max-width: 730px;
+}
+
+.single-bottom-area {
+  margin: 0 auto;
+}

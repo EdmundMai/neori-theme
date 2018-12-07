@@ -70,7 +70,8 @@ THE POST CONTENT
 
         </div><!-- /.author-->
 
-        <?php if (function_exists('add_neori_social_share_buttons_icons')) { echo wp_kses_post(do_shortcode('[neori-social-share-icons]')); } ?>
+
+        <?php get_template_part( 'template-parts/heart-button' ); ?>
 
       </div><!-- /.single-top-area -->
 
@@ -111,6 +112,7 @@ THE POST CONTENT
 
             <div class="single-bottom-area">
 
+              <?php get_template_part( 'template-parts/heart-button' ); ?>
               <?php if (function_exists('add_neori_social_share_buttons_icons')) { echo wp_kses_post (do_shortcode('[neori-social-share-icons]')); } ?>
 
             </div><!-- /.single-bottom-area -->
