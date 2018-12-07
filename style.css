@@ -6226,12 +6226,13 @@ div.wpcf7 .wpcf7-form-control {
 .doordash-related-posts-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 41px;
 }
 
 .doordash-related-post-row {
   display: flex;
   align-items: center;
-  margin: 21px 0;
+  margin-bottom: 21px;
 }
 
 .doordash-related-post-title {
@@ -6342,4 +6343,31 @@ Customizing the i-recommend-this heart button on single posts
 
 .doordash-next-post-container {
   text-align: right;
+}
+
+.doordash-related-job-link {
+  display: inline-block;
+  margin-bottom: 23px;
+}
+
+.doordash-job-title,
+.doordash-job-location {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+.doordash-job-title {
+  color: #555555;
+}
+
+.doordash-job-location {
+  color: #a2a2a2;
+}
+
+.doordash-sidebar-heaader {
+  margin-bottom: 23px;
 }

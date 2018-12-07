@@ -1,5 +1,5 @@
 <div>
-  <h4>Related Posts</h4>
+  <h4 class="doordash-sidebar-heaader">Related Posts</h4>
 
   <div class="doordash-related-posts-container">
 
@@ -51,4 +51,20 @@
 
   </div><!-- /.card-deck -->
 
+
+</div><!-- /.related-posts -->
+
+
+<div>
+  <h4 class="doordash-sidebar-heaader">Related Positions</h4>
+  <div>
+    <a href="#" class="doordash-related-job-link">
+      <h5 class="doordash-job-title">Job title really really long</h5>
+      <h5 class="doordash-job-location">Location</h5>
+    </a>
+    <a href="#" class="doordash-related-job-link">
+      <h5 class="doordash-job-title">Job title really really long</h5>
+      <h5 class="doordash-job-location">Location</h5>
+    </a>
+  </div><!-- /.related-posts -->
 </div><!-- /.related-posts -->
