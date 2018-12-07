@@ -542,11 +542,47 @@ function neori_doordash_backend_posts() {
 
 }
 
+/*******************
+    CUSTOM DATABASE FIELDS
+*******************/
+
+function extra_user_profile_fields( $user ) { ?>
+    <h3><?php _e("Extra profile information", "blank"); ?></h3>
+
+    <table class="form-table">
+    <tr>
+        <th><label for="linkedin"><?php _e("LinkedIn Profile URL"); ?></label></th>
+        <td>
+            <input type="text" name="linkedin" id="linkedin" value="<?php echo esc_attr( get_the_author_meta( 'linkedin', $user->ID ) ); ?>" class="regular-text" /><br />
+            <span class="description"><?php _e("Please enter your LinkedIn Profile URL."); ?></span>
+        </td>
+    </tr>
+    </table>
+<?php }
+
+function save_extra_user_profile_fields( $user_id ) {
+    if ( !current_user_can( 'edit_user', $user_id ) ) { 
+        return false; 
+    }
+    update_user_meta( $user_id, 'linkedin', $_POST['linkedin'] );
+}
+
+/*******************
+    CUSTOM SETUP
+*******************/
+
 function doordash_setup() {
 
   add_shortcode( 'doordash_popular_posts', 'neori_doordash_popular_posts' );
   add_shortcode( 'doordash_web_posts', 'neori_doordash_web_posts' );
   add_shortcode( 'doordash_backend_posts', 'neori_doordash_backend_posts' );
 
+  add_action( 'show_user_profile', 'extra_user_profile_fields' );
+  add_action( 'edit_user_profile', 'extra_user_profile_fields' );
+
+  add_action( 'personal_options_update', 'save_extra_user_profile_fields' );
+  add_action( 'edit_user_profile_update', 'save_extra_user_profile_fields' );
+
 }
+
 add_action( 'after_setup_theme', 'doordash_setup' );

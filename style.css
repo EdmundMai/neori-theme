@@ -338,7 +338,7 @@ a:hover,
 a:visited,
 a:link,
 a:active {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 p {
@@ -6250,4 +6250,12 @@ div.wpcf7 .wpcf7-form-control {
   margin-right: 12px;
   border-radius: 5px;
   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
+}
+
+.doordash-author-linkedin,
+.doordash-author-linkedin:active,
+.doordash-author-linkedin:visited,
+.doordash-author-linkedin:hover {
+  color: #a2a2a2;
+  text-decoration: underline !important;
 }
