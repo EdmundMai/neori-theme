@@ -71,6 +71,227 @@ a:active {
   outline: 0;
 }
 
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-Regular.eot");
+  src: url("./fonts/TTNorms-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-Regular.woff2") format("woff2"),
+    url("./fonts/TTNorms-Regular.woff") format("woff"),
+    url("./fonts/TTNorms-Regular.ttf") format("truetype"),
+    url("./fonts/TTNorms-Regular.svg#TTNorms-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-ExtraBoldItalic.eot");
+  src: url("./fonts/TTNorms-ExtraBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/TTNorms-ExtraBoldItalic.woff2") format("woff2"),
+    url("./fonts/TTNorms-ExtraBoldItalic.woff") format("woff"),
+    url("./fonts/TTNorms-ExtraBoldItalic.ttf") format("truetype"),
+    url("./fonts/TTNorms-ExtraBoldItalic.svg#TTNorms-ExtraBoldItalic")
+      format("svg");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-Italic.eot");
+  src: url("./fonts/TTNorms-Italic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-Italic.woff2") format("woff2"),
+    url("./fonts/TTNorms-Italic.woff") format("woff"),
+    url("./fonts/TTNorms-Italic.ttf") format("truetype"),
+    url("./fonts/TTNorms-Italic.svg#TTNorms-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-BoldItalic.eot");
+  src: url("./fonts/TTNorms-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-BoldItalic.woff2") format("woff2"),
+    url("./fonts/TTNorms-BoldItalic.woff") format("woff"),
+    url("./fonts/TTNorms-BoldItalic.ttf") format("truetype"),
+    url("./fonts/TTNorms-BoldItalic.svg#TTNorms-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-BlackItalic.eot");
+  src: url("./fonts/TTNorms-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-BlackItalic.woff2") format("woff2"),
+    url("./fonts/TTNorms-BlackItalic.woff") format("woff"),
+    url("./fonts/TTNorms-BlackItalic.ttf") format("truetype"),
+    url("./fonts/TTNorms-BlackItalic.svg#TTNorms-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-Heavy.eot");
+  src: url("./fonts/TTNorms-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-Heavy.woff2") format("woff2"),
+    url("./fonts/TTNorms-Heavy.woff") format("woff"),
+    url("./fonts/TTNorms-Heavy.ttf") format("truetype"),
+    url("./fonts/TTNorms-Heavy.svg#TTNorms-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-Bold.eot");
+  src: url("./fonts/TTNorms-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-Bold.woff2") format("woff2"),
+    url("./fonts/TTNorms-Bold.woff") format("woff"),
+    url("./fonts/TTNorms-Bold.ttf") format("truetype"),
+    url("./fonts/TTNorms-Bold.svg#TTNorms-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-Medium.eot");
+  src: url("./fonts/TTNorms-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-Medium.woff2") format("woff2"),
+    url("./fonts/TTNorms-Medium.woff") format("woff"),
+    url("./fonts/TTNorms-Medium.ttf") format("truetype"),
+    url("./fonts/TTNorms-Medium.svg#TTNorms-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-LightItalic.eot");
+  src: url("./fonts/TTNorms-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-LightItalic.woff2") format("woff2"),
+    url("./fonts/TTNorms-LightItalic.woff") format("woff"),
+    url("./fonts/TTNorms-LightItalic.ttf") format("truetype"),
+    url("./fonts/TTNorms-LightItalic.svg#TTNorms-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-ExtraLight.eot");
+  src: url("./fonts/TTNorms-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-ExtraLight.woff2") format("woff2"),
+    url("./fonts/TTNorms-ExtraLight.woff") format("woff"),
+    url("./fonts/TTNorms-ExtraLight.ttf") format("truetype"),
+    url("./fonts/TTNorms-ExtraLight.svg#TTNorms-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-ExtraBold.eot");
+  src: url("./fonts/TTNorms-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-ExtraBold.woff2") format("woff2"),
+    url("./fonts/TTNorms-ExtraBold.woff") format("woff"),
+    url("./fonts/TTNorms-ExtraBold.ttf") format("truetype"),
+    url("./fonts/TTNorms-ExtraBold.svg#TTNorms-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-Light.eot");
+  src: url("./fonts/TTNorms-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-Light.woff2") format("woff2"),
+    url("./fonts/TTNorms-Light.woff") format("woff"),
+    url("./fonts/TTNorms-Light.ttf") format("truetype"),
+    url("./fonts/TTNorms-Light.svg#TTNorms-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-ExtraLightItalic.eot");
+  src: url("./fonts/TTNorms-ExtraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/TTNorms-ExtraLightItalic.woff2") format("woff2"),
+    url("./fonts/TTNorms-ExtraLightItalic.woff") format("woff"),
+    url("./fonts/TTNorms-ExtraLightItalic.ttf") format("truetype"),
+    url("./fonts/TTNorms-ExtraLightItalic.svg#TTNorms-ExtraLightItalic")
+      format("svg");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-HeavyItalic.eot");
+  src: url("./fonts/TTNorms-HeavyItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-HeavyItalic.woff2") format("woff2"),
+    url("./fonts/TTNorms-HeavyItalic.woff") format("woff"),
+    url("./fonts/TTNorms-HeavyItalic.ttf") format("truetype"),
+    url("./fonts/TTNorms-HeavyItalic.svg#TTNorms-HeavyItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-Black.eot");
+  src: url("./fonts/TTNorms-Black.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-Black.woff2") format("woff2"),
+    url("./fonts/TTNorms-Black.woff") format("woff"),
+    url("./fonts/TTNorms-Black.ttf") format("truetype"),
+    url("./fonts/TTNorms-Black.svg#TTNorms-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-ThinItalic.eot");
+  src: url("./fonts/TTNorms-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-ThinItalic.woff2") format("woff2"),
+    url("./fonts/TTNorms-ThinItalic.woff") format("woff"),
+    url("./fonts/TTNorms-ThinItalic.ttf") format("truetype"),
+    url("./fonts/TTNorms-ThinItalic.svg#TTNorms-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-Thin.eot");
+  src: url("./fonts/TTNorms-Thin.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/TTNorms-Thin.woff2") format("woff2"),
+    url("./fonts/TTNorms-Thin.woff") format("woff"),
+    url("./fonts/TTNorms-Thin.ttf") format("truetype"),
+    url("./fonts/TTNorms-Thin.svg#TTNorms-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./fonts/TTNorms-MediumItalic.eot");
+  src: url("./fonts/TTNorms-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/TTNorms-MediumItalic.woff2") format("woff2"),
+    url("./fonts/TTNorms-MediumItalic.woff") format("woff"),
+    url("./fonts/TTNorms-MediumItalic.ttf") format("truetype"),
+    url("./fonts/TTNorms-MediumItalic.svg#TTNorms-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
 /*-----------
 # Navigation
 ------------*/
@@ -318,7 +539,7 @@ body {
   overflow-x: hidden;
   background: #ffffff;
   color: #141414;
-  font-family: "Heebo", "Arial", sans-serif !important;
+  font-family: "TTNorms", "Arial", sans-serif !important;
   font-size: 14px;
 }
 
@@ -411,7 +632,7 @@ p {
 .navbarsearchform {
   display: inline-block;
   color: #777777;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   font-size: 20px;
 }
@@ -449,7 +670,7 @@ p {
   width: 130px;
   color: #292929;
   font-size: 16px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 400;
   background: none !important;
   cursor: auto;
@@ -549,10 +770,24 @@ header.ad .navbarsearchform {
 .main-navigation li {
   margin-right: 24px;
   margin-bottom: 35px;
-  font-family: "Heebo", "Arial";
-  font-size: 17px;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-family: "TTNorms", "Arial";
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
+}
+
+.doordash-footer-column li {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #bbbbbb;
 }
 
 .main-navigation li a {
@@ -705,7 +940,7 @@ header.ad .navbarsearchform {
   margin-top: 155px;
   padding: 0 10px;
   color: #272727;
-  font-family: "Assistant", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.1px;
@@ -937,7 +1172,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .single-title-zone .category {
   margin-bottom: 22px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   font-size: 18px;
   text-transform: uppercase;
@@ -967,7 +1202,7 @@ header.ad .offcanvas-navigation .social-icons a {
   margin-top: 6px;
   margin-bottom: 13px;
   color: white;
-  font-family: "Assistant", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 2.2rem;
   font-weight: 700;
   letter-spacing: -0.3px;
@@ -975,7 +1210,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .single-title-zone .date {
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
@@ -990,7 +1225,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .single-title-zone-classic .category {
   display: block;
   margin-bottom: 10px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1020,7 +1255,7 @@ header.ad .offcanvas-navigation .social-icons a {
   margin-top: 21px;
   margin-bottom: 10px;
   color: #272727;
-  font-family: "Assistant", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: -0.9px;
@@ -1029,7 +1264,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .single-title-zone-classic .date {
   display: block;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 14px;
   font-weight: 600;
 }
@@ -1096,14 +1331,14 @@ header.ad .offcanvas-navigation .social-icons a {
 .single-top-area .author-info p {
   margin: 3px 0 0 0;
   color: #656667;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 14px;
   font-weight: 400;
 }
 
 .single-top-area .author-info a {
   color: #292929;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 18px;
   font-weight: 700;
   transition: 0.2s;
@@ -1332,7 +1567,7 @@ header.ad .offcanvas-navigation .social-icons a {
   margin: 0 13px 15px 0;
   padding: 7px 17px;
   color: #6d6d6d;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1405,7 +1640,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .single-author-bio h3 a {
   color: #141414;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   transition: 0.2s;
 }
 
@@ -1581,7 +1816,7 @@ header.ad .offcanvas-navigation .social-icons a {
   padding: 12px 15px;
   background: white;
   color: #272727;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1599,7 +1834,7 @@ header.ad .offcanvas-navigation .social-icons a {
   display: block;
   position: relative;
   margin: 70px auto 20px auto;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 41px;
   font-weight: 700;
   letter-spacing: -1.66px;
@@ -1624,7 +1859,7 @@ header.ad .offcanvas-navigation .social-icons a {
   margin-left: 7px;
   margin-bottom: 28px;
   color: #141414;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 41px;
   font-weight: 700;
   letter-spacing: -1.66px;
@@ -1639,7 +1874,7 @@ header.ad .offcanvas-navigation .social-icons a {
 ----------------*/
 .page .page-title {
   margin: 0 0 27px 26px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   color: #272727;
 }
 
@@ -1748,7 +1983,7 @@ header.ad .offcanvas-navigation .social-icons a {
   margin: 20px 0 25px 0;
   color: #141414;
   font-size: 35px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 700;
 }
 
@@ -1822,7 +2057,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .nothingfound h1 {
   color: #141414;
   font-size: 3.1rem;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
 }
 
 /*---------------
@@ -1869,14 +2104,14 @@ header.ad .offcanvas-navigation .social-icons a {
   width: 100%;
   height: 61px;
   color: #141414;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
 }
 
 .allcomments #author {
   padding: 10px;
   width: 50%;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   border: none;
   border-bottom: 2px solid #cecece;
@@ -1894,7 +2129,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .allcomments #email {
   padding: 10px;
   width: 50%;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   border: none;
   border-bottom: 2px solid #cecece;
@@ -1912,7 +2147,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .allcomments #url {
   padding: 10px;
   width: 50%;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   border: none;
   border-bottom: 2px solid #cecece;
@@ -1930,7 +2165,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .allcomments .submit {
   margin-bottom: 40px;
   background: none;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   text-transform: uppercase;
   border: none;
@@ -1947,7 +2182,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .allcomments #cancel-comment-reply-link {
   color: indianred;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
 }
 
 .allcomments .commentlist {
@@ -2008,7 +2243,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .allcomments .username {
   margin-bottom: 2px;
   color: #141414;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 17px;
   font-weight: 500;
   letter-spacing: -0.28px;
@@ -2028,7 +2263,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .allcomments .userdate {
   margin-bottom: 10px;
   color: #b5b3b3;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 14px;
   font-weight: 400;
 }
@@ -2073,7 +2308,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .allcomments .comment-content table {
   margin: 0 0 30px 0;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 16px;
 }
 
@@ -2182,7 +2417,7 @@ header.ad .offcanvas-navigation .social-icons a {
   width: 50%;
   color: #141414;
   font-size: 14px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
@@ -2198,7 +2433,7 @@ header.ad .offcanvas-navigation .social-icons a {
   float: right;
   color: #141414;
   font-size: 14px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
@@ -2208,7 +2443,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .allcomments .submit-button {
   margin-top: 40px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   font-weight: 700;
   font-size: 16px;
@@ -2217,7 +2452,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .allcomments .logged-in-as a {
   color: #141414;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
 }
 
@@ -2393,14 +2628,14 @@ header.ad .offcanvas-navigation .social-icons a {
 .blog-post .author-info p {
   margin: 3px 0 0 0;
   color: #656667;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 14px;
   font-weight: 400;
 }
 
 .blog-post .author-info a {
   color: #3e3e3e;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 15px;
   font-weight: 500;
   transition: 0.2s;
@@ -2446,17 +2681,6 @@ header.ad .offcanvas-navigation .social-icons a {
   transition: 0.2s;
 }
 
-.blog-post .meta .date {
-  margin-right: 3px;
-  padding-right: 7px;
-  border-right: 1px solid #d2d2d2;
-}
-
-.blog-post .meta .category {
-  margin-right: 7px;
-  border-right: 1px solid #d2d2d2;
-}
-
 .blog-post .meta .category a {
   padding-left: 4px;
   padding-right: 6px;
@@ -2492,7 +2716,7 @@ header.ad .offcanvas-navigation .social-icons a {
   display: inline-block;
   margin: 0 0 25px 25px;
   color: #272727;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 37px;
   font-weight: 700;
   letter-spacing: -1.66px;
@@ -3225,7 +3449,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .sidebar .widget-title {
   color: #141414;
   font-size: 12px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 700;
   font-size: 23px;
 }
@@ -3295,7 +3519,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 #wp-calendar {
   margin-left: 0;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 14px;
 }
 
@@ -3390,7 +3614,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .search-widget p {
   padding: 10px;
   color: #afafaf;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   font-size: 11px;
   letter-spacing: 2px;
@@ -3572,7 +3796,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce .page-title {
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
 }
 
 .woocommerce .sidebar .widget-title {
@@ -3636,7 +3860,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .woocommerce-loop-product__title {
   padding: 1px 0 11px 0 !important;
   font-size: 19px !important;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 700;
   letter-spacing: 0;
   transition: 0.5s;
@@ -3688,7 +3912,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce div.product .product_title {
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
 }
 
 .woocommerce div.product p.price,
@@ -3916,7 +4140,7 @@ header.ad .offcanvas-navigation .social-icons a {
   margin-bottom: 0;
   padding-left: 0;
   padding-bottom: 0;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 24px;
   display: none;
 }
@@ -3942,7 +4166,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .woocommerce .related h2 {
   margin-bottom: 17px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 24px;
 }
 
@@ -3957,7 +4181,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .woocommerce .up-sells h2 {
   margin-bottom: 15px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 700;
 }
 
@@ -3986,7 +4210,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce .comment-reply-title {
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.6px;
@@ -4052,7 +4276,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .woocommerce #reviews #comments h2 {
   margin-bottom: 30px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 24px;
 }
 
@@ -4130,7 +4354,7 @@ header.ad .offcanvas-navigation .social-icons a {
   color: #141414;
   background: none;
   border: none;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-weight: 500;
   text-transform: uppercase;
   font-size: 17px;
@@ -4255,7 +4479,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce table.shop_table {
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   font-size: 16px;
 }
 
@@ -4283,7 +4507,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .woocommerce .cart_totals h2 {
   margin: 0 0 27px 26px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
   display: none;
 }
 
@@ -4370,7 +4594,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .woocommerce .checkout h3 {
   margin-bottom: 0;
   padding: 23px 0 0px 0;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
 }
 
 .woocommerce .checkout p label {
@@ -4777,7 +5001,7 @@ div.wpcf7 .wpcf7-form-control {
 .page .entry-content .wp-block-cover-image h2 {
   color: white;
   font-size: 2em;
-  font-family: "Assistant", "Arial";
+  font-family: "TTNorms", "Arial";
   margin-bottom: 0;
 }
 
@@ -5786,7 +6010,7 @@ div.wpcf7 .wpcf7-form-control {
     margin-top: 21px;
     margin-bottom: 10px;
     color: #272727;
-    font-family: "Assistant", "Arial";
+    font-family: "TTNorms", "Arial";
     font-size: 2.2rem;
     font-weight: 700;
     letter-spacing: -0.5px;
