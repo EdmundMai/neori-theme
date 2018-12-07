@@ -28,9 +28,13 @@
 
           <span class="date"><?php the_time( get_option('date_format') ); ?></span>
 
+          <span>&nbsp;·&nbsp; </span>
+
           <span class="category"><?php neori_show_categories_except("Featured"); ?></span>
 
-          <span class="comments"><?php comments_popup_link( '0'.esc_html__(' Comments', 'neori'), '1'.esc_html__(' Comment', 'neori'), '%'.esc_html__(' Comments', 'neori'), '', ''); ?></span>
+          <span>&nbsp;·&nbsp; </span>
+
+          <span class="doordash-read-time"><?php echo (ceil(strlen(get_the_content()) / 300)); ?> min read</span>
 
         </div><!-- /.meta -->
 
