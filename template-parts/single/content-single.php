@@ -104,10 +104,6 @@ THE POST CONTENT
 
             <?php the_tags( '<div class="tags">', '', '</div>' ); ?>
 
-            <?php if(get_theme_mod( 'neori_show_single_post_posts_navi_setting' ) == true) : ?>
-              <?php get_template_part( 'template-parts/posts-navi' ); ?>
-            <?php endif; ?>
-
 
 
             <div class="single-bottom-area">
@@ -116,6 +112,7 @@ THE POST CONTENT
               <?php if (function_exists('add_neori_social_share_buttons_icons')) { echo wp_kses_post (do_shortcode('[neori-social-share-icons]')); } ?>
 
             </div><!-- /.single-bottom-area -->
+
 
           </div><!-- /.entry-content -->
 
@@ -132,6 +129,11 @@ BELOW POST
       <?php if(get_theme_mod( 'neori_show_single_post_author_bio_setting' ) == true) : ?>
         <?php get_template_part( 'template-parts/single-author-bio' ); ?>
       <?php endif; ?>
+
+      <?php if(get_theme_mod( 'neori_show_single_post_posts_navi_setting' ) == true) : ?>
+        <?php get_template_part( 'template-parts/posts-navi' ); ?>
+      <?php endif; ?>
+
 
       <?php if(!get_theme_mod('neori_hide_single_post_related_posts_setting')) : ?>
         <div class="ws">
