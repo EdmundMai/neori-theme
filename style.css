@@ -3416,13 +3416,11 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .sidebar a,
 .sidebar a:visited {
-  color: #656565;
   transition: 0.2s;
 }
 
 .sidebar a:hover,
 .sidebar a:focus {
-  color: #000000;
   text-decoration: none;
 }
 
@@ -6594,4 +6592,29 @@ Customizing the i-recommend-this heart button on single posts
 
 .doordash-sidebar-heaader {
   margin-bottom: 23px;
+}
+
+.doordash-all-jobs-link,
+.doordash-all-jobs-link:visited {
+  align-items: center;
+  background-color: #ff3008;
+  border-radius: 18px;
+  color: #ffffff;
+  display: flex;
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  height: 36px;
+  letter-spacing: -0.1px;
+  line-height: normal;
+  margin-right: 24px;
+  padding: 11px 16px;
+  transition: 0.2s;
+  width: 110px;
+}
+
+.doordash-all-jobs-link:hover {
+  background-color: #da260d;
+  color: #ffffff;
 }
