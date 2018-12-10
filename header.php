@@ -25,25 +25,7 @@
 
 <div id="page" class="site">
 
-<!-- Header Type Selection START -->
-
-<?php if(get_theme_mod('neori_header_type_setting') == 'normal') : ?>
-
-  <?php get_template_part( 'template-parts/headers/header-normal' ); ?>
-
-<?php elseif(get_theme_mod('neori_header_type_setting') == 'centered') : ?>
-
-  <?php get_template_part( 'template-parts/headers/header-centered' ); ?>
-
-<?php elseif(get_theme_mod('neori_header_type_setting') == 'ad') : ?>
-
-  <?php get_template_part( 'template-parts/headers/header-ad' ); ?>
-
-<?php else : ?>
-
-  <?php get_template_part( 'template-parts/headers/header-normal' ); ?>
-
-<?php endif; ?>
+<?php get_template_part( 'template-parts/headers/header-normal' ); ?>
 
 <!-- Header Type Selection END -->
 
