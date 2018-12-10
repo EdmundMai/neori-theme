@@ -1162,7 +1162,6 @@ header.ad .offcanvas-navigation .social-icons a {
   padding: 0 10px 0 10px;
   color: #ffffff;
   border-left: 1px solid rgba(224, 224, 224, 0.42);
-  opacity: 0.5;
   transition: 0.1s;
 }
 
@@ -1183,7 +1182,7 @@ header.ad .offcanvas-navigation .social-icons a {
   margin-bottom: 13px;
   color: white;
   font-family: "TTNorms", "Arial";
-  font-size: 2.2rem;
+  font-size: 34px;
   font-weight: 700;
   letter-spacing: -0.3px;
   line-height: 37px;
@@ -1191,10 +1190,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .single-title-zone .date {
   font-family: "TTNorms", "Arial";
-  font-size: 14px;
-  font-weight: 600;
   color: #ffffff;
-  opacity: 0.7;
 }
 
 .single-title-zone-classic {
@@ -1350,13 +1346,16 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .post .entry-content p {
-  max-width: 730px;
+  color: #a2a2a2;
+  font-family: "TTNorms", "Georgia";
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.33;
   margin: 0 auto 25px auto;
-  color: #424242;
-  font-family: "PT Serif", "Georgia";
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 35px;
+  max-width: 730px;
 }
 
 .post .entry-content p a,
@@ -1445,7 +1444,7 @@ header.ad .offcanvas-navigation .social-icons a {
   padding: 0;
   max-width: 730px;
   color: #424242;
-  font-family: "PT Serif", "Georgia";
+  font-family: "TTNorms", "Georgia";
   font-size: 20px;
   font-weight: 400;
 }
@@ -1495,7 +1494,7 @@ header.ad .offcanvas-navigation .social-icons a {
   max-width: 730px;
   margin: 0 auto;
   color: #424242;
-  font-family: "PT Serif", "Georgia";
+  font-family: "TTNorms", "Georgia";
   font-size: 20px;
   line-height: 35px;
 }
@@ -1521,7 +1520,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .post .entry-content address {
   margin: 0 auto 40px auto;
   max-width: 730px;
-  font-family: "PT Serif", "Georgia";
+  font-family: "TTNorms", "Georgia";
   font-size: 20px;
   font-weight: 400;
   line-height: 35px;
@@ -1538,22 +1537,25 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .post .tags {
-  margin: 38px auto 25px auto;
+  margin: 38px auto 20px auto;
   max-width: 730px;
 }
 
 .post .tags a {
+  background: #efeeee;
+  border-radius: 16px;
+  color: #555555;
   display: inline-block;
+  font-family: "TTNorms", "Arial";
+  font-size: 14px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: normal;
   margin: 0 13px 15px 0;
   padding: 7px 17px;
-  color: #6d6d6d;
-  font-family: "TTNorms", "Arial";
-  font-size: 15px;
-  font-weight: 400;
-  text-transform: uppercase;
   transition: 0.3s;
-  background: #efeeee;
-  border-radius: 4px;
 }
 
 .post .tags a:hover,
@@ -1573,6 +1575,7 @@ header.ad .offcanvas-navigation .social-icons a {
   float: left;
   padding: 0 33px 0 0;
   color: #1f1f1f;
+  color: #a2a2a2;
   font-size: 23px;
   transition: 0.2s;
 }
@@ -2259,7 +2262,7 @@ header.ad .offcanvas-navigation .social-icons a {
   max-width: 620px;
   overflow: hidden;
   color: #656565;
-  font-family: "PT Serif", "Georgia";
+  font-family: "TTNorms", "Georgia";
   font-size: 17px;
   font-weight: 400;
   line-height: 32px;
@@ -2467,8 +2470,6 @@ header.ad .offcanvas-navigation .social-icons a {
 .neori-pagination .previous-posts-link a:hover {
   text-decoration: none;
   color: #141414;
-  font-weight: 500;
-  transition: 0.2s;
 }
 
 .neori-pagination .previous-posts-link {
@@ -2477,7 +2478,6 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .neori-pagination .previous-posts-link a {
   color: #838383;
-  transition: 0.2s;
 }
 
 .page-links {
@@ -3549,7 +3549,7 @@ header.ad .offcanvas-navigation .social-icons a {
   margin-bottom: 5px;
   color: rgba(0, 0, 0, 0.54);
   font-size: 15px;
-  font-family: "PT Serif", "Georgia";
+  font-family: "TTNorms", "Georgia";
   line-height: 27px;
 }
 
@@ -3734,10 +3734,6 @@ header.ad .offcanvas-navigation .social-icons a {
   color: #141414;
   text-decoration: none;
   transition: 0.2s;
-}
-
-.footer .main-navigation {
-  margin-bottom: 30px;
 }
 
 .footer .main-navigation ul li ul {
@@ -5041,7 +5037,7 @@ div.wpcf7 .wpcf7-form-control {
   max-width: 730px;
   margin: 20px auto 0 auto;
   color: #989898;
-  font-family: "PT Serif", "Georgia";
+  font-family: "TTNorms", "Georgia";
   font-size: 19px;
 }
 
@@ -6415,6 +6411,7 @@ div.wpcf7 .wpcf7-form-control {
 
 .doordash-bottom-link-container {
   display: flex;
+  margin-top: 60px;
 }
 
 .doordash-logo-white {
@@ -6578,6 +6575,7 @@ Customizing the i-recommend-this heart button on single posts
 
 .doordash-job-title {
   color: #555555;
+  margin-bottom: 0px;
 }
 
 .doordash-job-location {
@@ -6629,4 +6627,30 @@ Customizing the i-recommend-this heart button on single posts
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+}
+
+.doordash-link-section {
+  display: flex;
+  margin-right: 55px;
+}
+
+.doordash-post-category a {
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  color: #ffffff;
+}
+
+.doordash-post-date {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
 }

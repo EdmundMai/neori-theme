@@ -46,36 +46,38 @@
 
     <nav class="main-navigation doordash-footer-navigation">
 
-      <div class="doordash-footer-column">
-        <h5 class="doordash-footer-header">Blog Categories</h5>
-        <?php
-          wp_nav_menu( array(
-            'theme_location' => 'footer-menu',
-            'fallback_cb' => 'false',
-            'menu_class' => 'doordash-footer-menu-list',
-          ) );
-          ?>
-      </div>
+      <div class="doordash-link-section">
+        <div class="doordash-footer-column">
+          <h5 class="doordash-footer-header">Blog Categories</h5>
+          <?php
+            wp_nav_menu( array(
+              'theme_location' => 'footer-menu',
+              'fallback_cb' => 'false',
+              'menu_class' => 'doordash-footer-menu-list',
+            ) );
+            ?>
+        </div>
 
-      <div class="doordash-footer-column">
-        <h5 class="doordash-footer-header">Social</h5>
-        <ul class="doordash-footer-menu-list">
-          <li><a target="_blank" href="https://www.linkedin.com/company/doordash">LinkedIn</a></li>
-          <li><a target="_blank" href="https://www.glassdoor.com/Reviews/DoorDash-Reviews-E813073.htm">Glassdoor</a></li>
-          <li><a target="_blank" href="https://twitter.com/andyfang?lang=en">Twitter</a></li>
-          <li><a target="_blank" href="https://www.facebook.com/DoorDash/">Facebook</a></li>
-          <li><a target="_blank" href="http://instagram.com/doordash">Instagram</a></li>
-        </ul>
-      </div>
+        <div class="doordash-footer-column">
+          <h5 class="doordash-footer-header">Social</h5>
+          <ul class="doordash-footer-menu-list">
+            <li><a target="_blank" href="https://www.linkedin.com/company/doordash">LinkedIn</a></li>
+            <li><a target="_blank" href="https://www.glassdoor.com/Reviews/DoorDash-Reviews-E813073.htm">Glassdoor</a></li>
+            <li><a target="_blank" href="https://twitter.com/andyfang?lang=en">Twitter</a></li>
+            <li><a target="_blank" href="https://www.facebook.com/DoorDash/">Facebook</a></li>
+            <li><a target="_blank" href="http://instagram.com/doordash">Instagram</a></li>
+          </ul>
+        </div>
 
-      <div class="doordash-footer-column">
-        <h5 class="doordash-footer-header">DoorDash Links</h5>
-        <ul class="doordash-footer-menu-list">
-          <li><a target="_blank" href="https://www.doordash.com/">DoorDash.com</a></li>
-          <li><a target="_blank" href="https://www.doordash.com/about/">About Us</a></li>
-          <li><a target="_blank" href="https://www.doordash.com/careers/">Careers</a></li>
-          <li><a target="_blank" href="http://blog.doordash.com/">Blog</a></li>
-        </ul>
+        <div class="doordash-footer-column">
+          <h5 class="doordash-footer-header">DoorDash Links</h5>
+          <ul class="doordash-footer-menu-list">
+            <li><a target="_blank" href="https://www.doordash.com/">DoorDash.com</a></li>
+            <li><a target="_blank" href="https://www.doordash.com/about/">About Us</a></li>
+            <li><a target="_blank" href="https://www.doordash.com/careers/">Careers</a></li>
+            <li><a target="_blank" href="http://blog.doordash.com/">Blog</a></li>
+          </ul>
+        </div>
       </div>
 
       <div>

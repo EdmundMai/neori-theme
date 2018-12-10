@@ -22,13 +22,16 @@ THUMBNAIL & TITLE
 
         <div class="single-title-zone ws-sr col">
 
-          <span class="category"><?php neori_show_categories_except("Featured"); ?></span>
+          <span class="category doordash-post-category"><?php neori_show_categories_except("Featured"); ?></span>
 
           <?php the_title( '<h1>', '</h1>' ); ?>
 
           <?php if ( 'post' === get_post_type() ) : ?>
 
-            <span class="date"><?php the_time( get_option('date_format') ); ?></span>
+            <span class="date doordash-post-date">
+              <?php the_time( get_option('date_format') ); ?> &nbsp;·&nbsp; 
+              <?php echo (ceil(strlen(get_the_content()) / 300)); ?> min read
+            </span>
 
           <?php endif; ?>
 
