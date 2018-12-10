@@ -983,12 +983,7 @@ header.ad .navbarsearchform {
   margin-top: 13px;
   padding-bottom: 13px;
   font-size: 16px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #f2f2f2;
-}
-
-.offcanvas-navigation ul li:last-child {
-  border: none;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .offcanvas-navigation ul li.menu-item-has-children > a:after {
@@ -1005,7 +1000,13 @@ header.ad .navbarsearchform {
 }
 
 .offcanvas-navigation ul li a {
-  color: #141414;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
 }
 
 .offcanvas-navigation ul li a:hover,
@@ -6298,7 +6299,10 @@ div.wpcf7 .wpcf7-form-control {
 
 .doordash-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  @media only screen and (min: 577px) {
+    justify-content: space-between;
+  }
 }
 
 .doordash-header-left {
@@ -6313,14 +6317,21 @@ div.wpcf7 .wpcf7-form-control {
 .doordash-sign-up-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 0 8px;
+  align-items: center;
+  margin-top: 47px;
+  @media only screen and (min: 577px) {
+    align-items: flex-start;
+    margin: 0 8px;
+  }
 }
 
 .doordash-sign-up-text {
   color: #565656;
   font-size: 16px;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+  @media only screen and (min: 577px) {
+    margin-bottom: 12px;
+  }
 }
 
 .footer .doordash-sign-up-text {
@@ -6653,4 +6664,16 @@ Customizing the i-recommend-this heart button on single posts
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
+}
+
+@media only screen and (max-width: 576px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  .mobile-only {
+    display: none;
+  }
 }

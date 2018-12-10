@@ -11,7 +11,8 @@
         <div class="header-upper doordash-header" style="height: 69px">
         <div class="doordash-header-left">
 
-        <div class="logo" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/dd-eng-logo@3x.png'); width: 531px; height: 43px;"><a href="<?php echo esc_url( home_url() );  ?>"><h1><?php bloginfo('name'); ?></h1></a></div>
+        <div class="logo desktop-only" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/dd-eng-logo-desktop@3x.png'); width: 531px; height: 43px;"><a href="<?php echo esc_url( home_url() );  ?>"><h1><?php bloginfo('name'); ?></h1></a></div>
+        <div class="logo mobile-only" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/dd-eng-logo-mobile@3x.png'); width: 240px; height: 38px;"><a href="<?php echo esc_url( home_url() );  ?>"><h1><?php bloginfo('name'); ?></h1></a></div>
 
       <?php else : ?>
 
@@ -90,7 +91,9 @@
 
           </div>
 
-          <?php get_template_part( 'template-parts/forms/email-form' ); ?>
+          <div class="desktop-only">
+            <?php get_template_part( 'template-parts/forms/email-form' ); ?>
+          </div>
 
         </div><!-- /.header-upper -->
 
@@ -179,6 +182,8 @@
               'fallback_cb' => 'false',
             ) );
           ?>
+
+          <?php get_template_part( 'template-parts/forms/email-form' ); ?>
 
         </div> <!-- /.offcanvas-navigation -->
 
