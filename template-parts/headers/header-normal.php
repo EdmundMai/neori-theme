@@ -104,7 +104,7 @@
 
 <!-- Navigation -->
 
-      <div class="header-lower">
+      <div class="header-lower doordash-top-header">
 
         <nav class="main-navigation">
 
