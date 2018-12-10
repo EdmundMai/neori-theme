@@ -25,59 +25,6 @@
 
 <div id="page" class="site">
 
-
-
-<!-- Sticky Header START -->
-
-  <div class="sticky-header align-items-center">
-
-    <div class="container doordash-sticky-header-container">
-
-      <div class="sticky-logo">
-
-        <?php if(!get_theme_mod('neori_small_logo_image_setting')) : ?>
-
-          <div class="logo" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/img/dd-eng-logo@3x.png'); width: 531px; height: 43px;"><a href="<?php echo esc_url( home_url() );  ?>"><h1><?php bloginfo('name'); ?></h1></a></div>
-
-        <?php else : ?>
-
-          <a href="<?php echo esc_url( home_url() );  ?>"><img src="<?php echo get_theme_mod ('neori_small_logo_image_setting', ''); ?>"></a>
-
-        <?php endif; ?>
-
-      </div><!-- /.sticky-logo -->
-
-    <div>
-      <nav class="main-navigation sticky">
-
-        <?php
-          wp_nav_menu( array(
-            'theme_location' => 'header-menu',
-            'fallback_cb' => 'false',
-          ) );
-        ?>
-
-      </nav><!-- /.main-navigation sticky -->
-
-      <?php if ( class_exists( 'WooCommerce' ) ) : ?>
-
-        <a href="<?php echo wc_get_cart_url(); ?>"><i class="fa fa-shopping-cart cart-icon"></i></a>
-
-      <?php endif; ?>
-
-      <form id="navbarsearchformsticky" class="navbarsearchform" role="search" action="<?php echo esc_url( home_url() );  ?>/" method="get">
-
-        <input type="search" name="s" value="<?php the_search_query(); ?> ">
-
-      </form>
-    </div>
-
-    </div><!-- /.container-->
-
-  </div><!-- /.sticky-header -->
-
-<!-- Sticky Header END -->
-
 <!-- Header Type Selection START -->
 
 <?php if(get_theme_mod('neori_header_type_setting') == 'normal') : ?>
