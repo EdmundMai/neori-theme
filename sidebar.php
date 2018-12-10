@@ -1,3 +1,4 @@
+<?php if ( !is_category() ) : ?>
 <div>
   <h4 class="doordash-sidebar-heaader">Related Posts</h4>
 
@@ -53,6 +54,7 @@
 
 
 </div><!-- /.related-posts -->
+<?php endif; ?>
 
 
 <div>
@@ -73,5 +75,4 @@
       See all jobs
     </a>
   </div>
-  
-</div><!-- /.related-posts -->
+</div>
