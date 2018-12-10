@@ -59,19 +59,11 @@
 
 <div>
   <h4 class="doordash-sidebar-heaader">Related Positions</h4>
-  <div>
-    <a href="#" class="doordash-related-job-link">
-      <h5 class="doordash-job-title">Job title really really long</h5>
-      <h5 class="doordash-job-location">Location</h5>
-    </a>
-    <a href="#" class="doordash-related-job-link">
-      <h5 class="doordash-job-title">Job title really really long</h5>
-      <h5 class="doordash-job-location">Location</h5>
-    </a>
+  <div class="doordash-related-jobs-container">
   </div>
 
   <div>
-    <a href="https://www.doordash.com/careers/" class="doordash-all-jobs-link" target="_blank">
+    <a href="https://boards.greenhouse.io/doordash#2438" class="doordash-all-jobs-link" target="_blank">
       See all jobs
     </a>
   </div>

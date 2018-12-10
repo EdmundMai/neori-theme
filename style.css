@@ -3394,17 +3394,6 @@ header.ad .offcanvas-navigation .social-icons a {
   font-weight: 400;
 }
 
-.sidebar a,
-.sidebar a:visited {
-  transition: 0.2s;
-}
-
-.sidebar a:hover,
-.sidebar a:focus {
-  color: #141414;
-  text-decoration: none;
-}
-
 .sidebar ul {
   padding-left: 0px;
   list-style: none;
@@ -6466,6 +6455,11 @@ div.wpcf7 .wpcf7-form-control {
   letter-spacing: normal;
   color: #a2a2a2;
   margin: 0;
+}
+
+.doordash-related-post-title a:hover {
+  color: #141414;
+  text-decoration: none;
 }
 
 .doordash-related-post-img {

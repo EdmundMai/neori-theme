@@ -1,6 +1,54 @@
+const shuffle = array => {
+  let currentIndex = array.length;
+  let temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+};
+
 (function($) {
   "use strict";
 
+  /*---------------------------------------------------------------
+    BACK ON TOP BUTTON
+  -----------------------------------------------------------------*/
+  $(function() {
+    const RELATED_JOBS_SELECTOR = ".doordash-related-jobs-container";
+    const ENGINEERING_DEPARTMENT_ID = "2438";
+
+    if ($(RELATED_JOBS_SELECTOR).length) {
+      fetch(
+        `https://boards-api.greenhouse.io/v1/boards/doordash/departments/${ENGINEERING_DEPARTMENT_ID}`
+      )
+        .then(response => response.json())
+        .then(({ jobs }) => {
+          shuffle(jobs)
+            .slice(0, 5)
+            .forEach(job => {
+              const jobPostingLink = `
+              <a href="${
+                job.absolute_url
+              }" class="doordash-related-job-link" target="_blank">
+                <h5 class="doordash-job-title">${job.title}</h5>
+                <h5 class="doordash-job-location">${job.location.name}</h5>
+              </a>
+            `;
+              $(RELATED_JOBS_SELECTOR).append(jobPostingLink);
+            });
+        });
+    }
+  });
   /*---------------------------------------------------------------
 BACK ON TOP BUTTON
 -----------------------------------------------------------------*/
