@@ -6311,12 +6311,12 @@ div.wpcf7 .wpcf7-form-control {
 
 .doordash-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-@media only screen and (max-width: 577px) {
+@media only screen and (min-width: 576px) {
   .doordash-header {
-    justify-content: center;
+    justify-content: space-between;
   }
 }
 
@@ -6338,7 +6338,13 @@ div.wpcf7 .wpcf7-form-control {
   line-height: normal;
   letter-spacing: normal;
   color: #555555;
-  margin: 0 0 25px 25px;
+  margin: 0 0 25px 10px;
+}
+
+@media only screen and (min-width: 576px) {
+  .doordash-category-title {
+    margin: 0 0 25px 25px;
+  }
 }
 
 .doordash-header-left {

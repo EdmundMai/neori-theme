@@ -1,6 +1,6 @@
 <?php if ( !is_category() ) : ?>
 <div>
-  <h4 class="doordash-sidebar-heaader">Related Posts</h4>
+  <h4 class="doordash-sidebar-header">Related Posts</h4>
 
   <div class="doordash-related-posts-container">
 
