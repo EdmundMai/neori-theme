@@ -58,11 +58,11 @@
 
 
 <div>
-  <h4 class="doordash-sidebar-heaader">Related Positions</h4>
+  <h4 class="doordash-sidebar-header">Related Positions</h4>
   <div class="doordash-related-jobs-container">
   </div>
 
-  <div>
+  <div class="doordash-all-jobs-container">
     <a href="https://boards.greenhouse.io/doordash#2438" class="doordash-all-jobs-link" target="_blank">
       See all jobs
     </a>

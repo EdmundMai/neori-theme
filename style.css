@@ -6672,7 +6672,7 @@ Customizing the i-recommend-this heart button on single posts
   color: #a2a2a2;
 }
 
-.doordash-sidebar-heaader {
+.doordash-sidebar-header {
   margin-bottom: 23px;
 }
 
@@ -6784,4 +6784,13 @@ Customizing the i-recommend-this heart button on single posts
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
+}
+
+.doordash-mobile-sidebar {
+  text-align: left;
+}
+
+.doordash-all-jobs-container {
+  display: flex;
+  justify-content: center;
 }

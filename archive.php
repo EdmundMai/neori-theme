@@ -42,7 +42,7 @@
 
       </div><!-- /.content -->
 
-      <aside class="sidebar col-12 col-sm-6 col-md-6 col-lg-3 mx-auto align-items-center widget-area" id="secondary">
+      <aside class="sidebar doordash-mobile-sidebar col-12 col-sm-6 col-md-6 col-lg-3 mx-auto align-items-center widget-area" id="secondary">
 
         <?php get_sidebar(); ?>
 
