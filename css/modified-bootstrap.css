@@ -143,6 +143,11 @@ h6 {
   font-weight: 700;
 }
 
+.home .carousel-caption h3 a:hover,
+.page .carousel-caption h3 a:hover {
+  color: #fff;
+}
+
 .home .carousel-caption p,
 .page .carousel-caption p {
   color: #ffffff;
@@ -165,6 +170,11 @@ h6 {
 .home .carousel-caption p a,
 .page .carousel-caption p a {
   font-weight: 400;
+}
+
+.home .carousel-caption p a:hover,
+.page .carousel-caption p a:hover {
+  color: #fff;
 }
 
 .home .carousel-control-next,
