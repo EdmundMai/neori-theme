@@ -91,7 +91,7 @@
 
           </div>
 
-          <div class="desktop-only">
+          <div class="tablet-or-bigger">
             <?php get_template_part( 'template-parts/forms/email-form' ); ?>
           </div>
 

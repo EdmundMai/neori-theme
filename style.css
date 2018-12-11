@@ -3688,7 +3688,13 @@ header.ad .offcanvas-navigation .social-icons a {
   padding: 70px 0px;
 }
 
-@media only screen and (min-width: 577px) {
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+  .footer {
+    padding: 70px 80px 61px 80px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
   .footer {
     padding: 70px 165px 61px 165px;
   }
@@ -5702,10 +5708,6 @@ div.wpcf7 .wpcf7-form-control {
     font-size: 15px;
   }
 
-  .footer .main-navigation {
-    display: block;
-  }
-
   .footer .main-navigation li {
     font-size: 15px;
   }
@@ -6314,7 +6316,7 @@ div.wpcf7 .wpcf7-form-control {
   justify-content: center;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 991px) {
   .doordash-header {
     justify-content: space-between;
   }
@@ -6362,7 +6364,7 @@ div.wpcf7 .wpcf7-form-control {
   align-items: center;
 }
 
-@media only screen and (min-width: 577px) {
+@media only screen and (min-width: 991px) {
   .doordash-sign-up-container {
     align-items: flex-start;
     margin: 0 8px;
@@ -6417,6 +6419,15 @@ div.wpcf7 .wpcf7-form-control {
 
 .doordash-footer-navigation {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 991px) {
+  .doordash-footer-navigation {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
 
 .doordash-footer-column {
@@ -6426,7 +6437,14 @@ div.wpcf7 .wpcf7-form-control {
   text-align: center;
 }
 
-@media only screen and (min-width: 577px) {
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+  .doordash-footer-column {
+    padding: 0 50px;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 991px) {
   .doordash-footer-column {
     margin-right: 100px;
     margin-bottom: 0;
@@ -6480,11 +6498,11 @@ div.wpcf7 .wpcf7-form-control {
   display: flex;
   margin-top: 60px;
   align-items: center;
+  justify-content: space-around;
 }
 
 @media only screen and (min-width: 577px) {
   .doordash-logo-white {
-    margin-left: 30px;
     align-items: flex-start;
   }
 }
@@ -6501,10 +6519,18 @@ div.wpcf7 .wpcf7-form-control {
   color: #bbbbbb;
 }
 
-@media only screen and (min-width: 577px) {
+@media only screen and (min-width: 577px) and (max-width: 991px) {
   .doordash-bottom-link-container a,
   .doordash-bottom-link-container span {
-    margin-right: 135px;
+    color: #bbbbbb;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .doordash-bottom-link-container a,
+  .doordash-bottom-link-container span {
     color: #bbbbbb;
     font-size: 15px;
     white-space: nowrap;
@@ -6737,6 +6763,12 @@ Customizing the i-recommend-this heart button on single posts
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .doordash-link-section {
+    margin-right: 0;
+  }
+}
+
 .doordash-post-category a {
   opacity: 1;
   font-size: 14px;
@@ -6760,6 +6792,12 @@ Customizing the i-recommend-this heart button on single posts
 
 @media only screen and (max-width: 576px) {
   .desktop-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .tablet-or-bigger {
     display: none;
   }
 }
