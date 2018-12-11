@@ -6184,7 +6184,6 @@ div.wpcf7 .wpcf7-form-control {
   .single-bottom-area .social-icons a * {
     padding: 0 25px 0 0;
     font-size: 22px;
-    color: #404040;
   }
 
   .single-author-bio {
@@ -6604,8 +6603,14 @@ Customizing the i-recommend-this heart button on single posts
   display: flex;
   justify-content: space-between;
   margin-bottom: 101px;
-  margin: 0 auto 101px auto;
+  margin: 0 auto 49px auto;
   max-width: 730px;
+}
+
+@media only screen and (min-width: 577px) {
+  .doordash-posts-navigation {
+    margin-bottom: 101px;
+  }
 }
 
 .doordash-previous-post-container,
@@ -6622,16 +6627,21 @@ Customizing the i-recommend-this heart button on single posts
   color: #a2a2a2;
 }
 
-.doordash-previous-post-link a,
-.doordash-previous-post-link a:hover {
-  color: #555555;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
+.doordash-sibling-post-link {
+  display: none;
+}
+@media only screen and (min-width: 577px) {
+  .doordash-sibling-post-link {
+    display: block;
+    color: #555555;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+  }
 }
 
 .doordash-next-post-container {
