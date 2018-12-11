@@ -6,7 +6,7 @@
 
     <div class="card-body">
 
-      <h3 class="card-title"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h3>
+      <h3 class="doordash-card-title"><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h3>
 
       <p class="card-text">
             

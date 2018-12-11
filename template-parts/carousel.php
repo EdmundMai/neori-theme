@@ -28,7 +28,7 @@
 
           <?php if(!get_theme_mod('neori_carousel_custom_excerpt_setting')) : ?>
 
-            <p class="d-sm-block d-md-none"><a href="<?php echo get_permalink(); ?>"><?php echo wp_trim_words( get_the_content(), 10, '...' ); ?></a></p>
+            <p class="d-sm-block d-md-none doordash-carousel-caption"><a href="<?php echo get_permalink(); ?>"><?php echo wp_trim_words( get_the_content(), 10, '...' ); ?></a></p>
         
             <p class="d-none d-md-block"><a href="<?php echo get_permalink(); ?>"><?php echo wp_trim_words( get_the_content(), 20, '...' ); ?></a></p>
 

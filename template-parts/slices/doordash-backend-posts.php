@@ -1,6 +1,6 @@
 <div class="slice type1">
 
-  <a href="./category/<?php echo esc_html( get_theme_mod ('neori_doordash_backend_posts_category_slug_setting', '')); ?>/"><h2 class="slice-title"><?php echo esc_html( get_theme_mod ('neori_doordash_backend_posts_category_name_setting', '')); ?></h2></a>
+  <a href="./category/<?php echo esc_html( get_theme_mod ('neori_doordash_backend_posts_category_slug_setting', '')); ?>/"><h2 class="doordash-category-title"><?php echo esc_html( get_theme_mod ('neori_doordash_backend_posts_category_name_setting', '')); ?></h2></a>
 
   <div class="card-deck">
 

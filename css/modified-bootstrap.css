@@ -145,12 +145,15 @@ h6 {
 
 .home .carousel-caption p,
 .page .carousel-caption p {
+  color: #ffffff;
+  font-family: "TTNorms", "Arial";
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: normal;
   max-width: 530px;
-  font-family: "Heebo", "Arial";
-  font-size: 16px;
-  line-height: 25px;
-  opacity: 0.7;
-  transition: 0.2s;
 }
 
 .home .carousel-caption p:hover,
@@ -216,7 +219,7 @@ table {
   margin: 10px 0 20px 0;
   width: 100%;
   font-size: 15px;
-  font-family: "Heebo", "Arial";
+  font-family: "TTNorms", "Arial";
 }
 
 table > thead {
@@ -339,12 +342,6 @@ table a {
   .home .carousel-caption h3 a,
   .page .carousel-caption h3 a {
     font-weight: 700;
-  }
-
-  .home .carousel-caption p,
-  .page .carousel-caption p {
-    font-size: 15px;
-    line-height: 24px;
   }
 
   .home .carousel-control-next,

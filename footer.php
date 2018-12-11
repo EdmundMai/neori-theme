@@ -2,48 +2,6 @@
 
   <div class="container">
 
-    <div class="social-icons">
-
-      <?php if(get_theme_mod('neori_footer_first_social_icon_type_setting')) : ?>
-
-        <a href="<?php echo esc_url( get_theme_mod ('neori_footer_first_social_icon_url_setting', '')); ?>" target="_blank"><i class="fa fa-<?php echo esc_html( get_theme_mod ('neori_footer_first_social_icon_type_setting', '')); ?>"></i></a>
-
-      <?php endif; ?>
-
-      <?php if(get_theme_mod('neori_footer_second_social_icon_type_setting')) : ?>
-
-        <a href="<?php echo esc_url( get_theme_mod ('neori_footer_second_social_icon_url_setting', '')); ?>" target="_blank"><i class="fa fa-<?php echo esc_html( get_theme_mod ('neori_footer_second_social_icon_type_setting', '')); ?>"></i></a>
-
-      <?php endif; ?>
-
-      <?php if(get_theme_mod('neori_footer_third_social_icon_type_setting')) : ?>
-
-        <a href="<?php echo esc_url( get_theme_mod ('neori_footer_third_social_icon_url_setting', '')); ?>" target="_blank"><i class="fa fa-<?php echo esc_html( get_theme_mod ('neori_footer_third_social_icon_type_setting', '')); ?>"></i></a>
-
-      <?php endif; ?>
-
-      <?php if(get_theme_mod('neori_footer_fourth_social_icon_type_setting')) : ?>
-
-        <a href="<?php echo esc_url( get_theme_mod ('neori_footer_fourth_social_icon_url_setting', '')); ?>" target="_blank"><i class="fa fa-<?php echo esc_html( get_theme_mod ('neori_footer_fourth_social_icon_type_setting', '')); ?>"></i></a>
-
-      <?php endif; ?>
-
-      <?php if(get_theme_mod('neori_footer_fifth_social_icon_type_setting')) : ?>
-
-        <a href="<?php echo esc_url( get_theme_mod ('neori_footer_fifth_social_icon_url_setting', '')); ?>" target="_blank"><i class="fa fa-<?php echo esc_html( get_theme_mod ('neori_footer_fifth_social_icon_type_setting', '')); ?>"></i></a>
-
-      <?php endif; ?>
-
-      <?php if(get_theme_mod('neori_footer_sixth_social_icon_type_setting')) : ?>
-
-        <a href="<?php echo esc_url( get_theme_mod ('neori_footer_sixth_social_icon_url_setting', '')); ?>" target="_blank"><i class="fa fa-<?php echo esc_html( get_theme_mod ('neori_footer_sixth_social_icon_type_setting', '')); ?>"></i></a>
-
-      <?php endif; ?>
-
-    </div><!-- /.social-icons -->
-
-    <p class="additional-text"><?php echo wp_kses_post( get_theme_mod ('neori_additional_footer_text_setting', '')); ?></p>
-
     <nav class="main-navigation doordash-footer-navigation">
 
       <div class="doordash-link-section">
@@ -91,7 +49,7 @@
     </nav><!-- #site-navigation -->
 
     <div class="doordash-bottom-link-container">
-      <a href="/" class="doordash-logo-white"><div class="sc-cMhqgX htLWrd" size="18"><svg width="61" height="35" viewBox="0 0 99.5 56.5" fill="#fff"><path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"></path></svg></div></a>
+      <a href="/" class="doordash-logo-white"><div class="sc-cMhqgX htLWrd" size="18"><svg class="doordash-footer-logo" width="61" height="35" viewBox="0 0 99.5 56.5" fill="#fff"><path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"></path></svg></div></a>
       <a target="_blank" href="https://www.doordash.com/terms/">Terms of Service</a>
       <a target="_blank" href="https://www.doordash.com/privacy/">Privacy</a>
       <a target="_blank" href="https://www.doordash.com/food-delivery/">Delivery Locations</a>

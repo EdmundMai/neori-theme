@@ -1047,6 +1047,10 @@ header.ad .navbarsearchform {
   font-size: 20px;
 }
 
+.offcanvas-navigation .menu-header-menu-container {
+  margin-bottom: 47px;
+}
+
 header.ad .offcanvas-navigation .social-icons a {
   margin-right: 0px;
 }
@@ -1863,11 +1867,11 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .page .entry-content a {
-  font-weight: 500;
   transition: 0.2s;
 }
 
 .page .entry-content a:hover {
+  color: #141414;
   transition: 0.2s;
 }
 
@@ -3681,7 +3685,13 @@ header.ad .offcanvas-navigation .social-icons a {
 .footer {
   text-align: center;
   background-color: #333333;
-  padding: 70px 165px 61px 165px;
+  padding: 70px 0px;
+}
+
+@media only screen and (min-width: 577px) {
+  .footer {
+    padding: 70px 165px 61px 165px;
+  }
 }
 
 .footer .container {
@@ -3771,7 +3781,6 @@ header.ad .offcanvas-navigation .social-icons a {
 .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {
   background-color: #ececec;
 }
-
 .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
 .woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
   background-color: #c1c1c1;
@@ -6007,6 +6016,10 @@ div.wpcf7 .wpcf7-form-control {
     margin-bottom: 30px;
   }
 
+  .doordash-header {
+    justify-content: center;
+  }
+
   .slice.type2 .card .card-img-top,
   .slice.type3 .card .card-img-top,
   .slice.type3 .blog-post-thumbnail-zone img,
@@ -6299,10 +6312,34 @@ div.wpcf7 .wpcf7-form-control {
 
 .doordash-header {
   display: flex;
-  justify-content: center;
-  @media only screen and (min: 577px) {
-    justify-content: space-between;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 577px) {
+  .doordash-header {
+    justify-content: center;
   }
+}
+
+.doordash-card-title a {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #555555;
+}
+
+.doordash-category-title {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #555555;
+  margin: 0 0 25px 25px;
 }
 
 .doordash-header-left {
@@ -6318,8 +6355,10 @@ div.wpcf7 .wpcf7-form-control {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 47px;
-  @media only screen and (min: 577px) {
+}
+
+@media only screen and (min-width: 577px) {
+  .doordash-sign-up-container {
     align-items: flex-start;
     margin: 0 8px;
   }
@@ -6329,7 +6368,10 @@ div.wpcf7 .wpcf7-form-control {
   color: #565656;
   font-size: 16px;
   margin-bottom: 15px;
-  @media only screen and (min: 577px) {
+}
+
+@media only screen and (min-width: 577px) {
+  .doordash-sign-up-text {
     margin-bottom: 12px;
   }
 }
@@ -6375,7 +6417,16 @@ div.wpcf7 .wpcf7-form-control {
 .doordash-footer-column {
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 577px) {
+  .doordash-footer-column {
+    margin-right: 100px;
+    margin-bottom: 0;
+    text-align: left;
+  }
 }
 
 .doordash-footer-header {
@@ -6423,18 +6474,36 @@ div.wpcf7 .wpcf7-form-control {
 .doordash-bottom-link-container {
   display: flex;
   margin-top: 60px;
+  align-items: center;
 }
 
-.doordash-logo-white {
-  margin-left: 30px;
+@media only screen and (min-width: 577px) {
+  .doordash-logo-white {
+    margin-left: 30px;
+    align-items: flex-start;
+  }
 }
 
 .doordash-bottom-link-container a,
 .doordash-bottom-link-container span {
-  margin-right: 135px;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
   color: #bbbbbb;
-  font-size: 15px;
-  white-space: nowrap;
+}
+
+@media only screen and (min-width: 577px) {
+  .doordash-bottom-link-container a,
+  .doordash-bottom-link-container span {
+    margin-right: 135px;
+    color: #bbbbbb;
+    font-size: 15px;
+    white-space: nowrap;
+  }
 }
 
 .doordash-bottom-link-container a:hover {
@@ -6624,7 +6693,7 @@ Customizing the i-recommend-this heart button on single posts
 
 .doordash-top-header a,
 .doordash-sticky-header-container a {
-  color: #555555;
+  color: #a2a2a2;
   text-decoration: none;
 }
 
@@ -6642,7 +6711,14 @@ Customizing the i-recommend-this heart button on single posts
 
 .doordash-link-section {
   display: flex;
-  margin-right: 55px;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 577px) {
+  .doordash-link-section {
+    flex-direction: row;
+    margin-right: 55px;
+  }
 }
 
 .doordash-post-category a {
@@ -6676,4 +6752,26 @@ Customizing the i-recommend-this heart button on single posts
   .mobile-only {
     display: none;
   }
+}
+
+.doordash-footer-logo {
+  width: 31px;
+  height: 18px;
+}
+
+@media only screen and (min-width: 577px) {
+  .doordash-footer-logo {
+    width: 61px;
+    height: 35px;
+  }
+}
+
+.doordash-carousel-caption {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
 }
