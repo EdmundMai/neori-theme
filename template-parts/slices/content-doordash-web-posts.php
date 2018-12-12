@@ -12,7 +12,7 @@
             
         <?php if(!get_theme_mod('neori_doordash_web_posts_custom_excerpt_setting')) : ?>
 
-          <?php echo wp_trim_words( get_the_content(), 17, '...' ); ?>
+          <?php echo wp_trim_words( get_the_content(), 15, '...' ); ?>
 
         <?php else: ?>   
 

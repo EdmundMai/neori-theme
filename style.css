@@ -538,7 +538,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   background: #ffffff;
-  color: #141414;
+  color: #555555;
   font-family: "TTNorms", "Arial", sans-serif !important;
   font-size: 14px;
 }
@@ -602,7 +602,7 @@ p {
 
 .logo-right .social-icons a:hover,
 .logo-right .social-icons a:focus {
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -664,7 +664,7 @@ p {
 .navbarsearchform input[type="search"]:focus {
   padding: 0;
   width: 130px;
-  color: #292929;
+  color: #555555;
   font-size: 16px;
   font-family: "TTNorms", "Arial";
   font-weight: 400;
@@ -729,7 +729,7 @@ header.centered a:hover,
 header.centered a:focus,
 header.ad a:hover,
 header.ad a:focus {
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -802,7 +802,7 @@ header.ad .navbarsearchform {
 }
 
 .main-navigation ul li.menu-item-has-children:hover:after {
-  border-color: #141414 transparent transparent transparent;
+  border-color: #555555 transparent transparent transparent;
   transition: 0.2s;
 }
 
@@ -993,7 +993,7 @@ header.ad .navbarsearchform {
   bottom: auto;
   right: 30px;
   margin-top: 10px;
-  border-color: #141414 transparent transparent transparent;
+  border-color: #555555 transparent transparent transparent;
   border-style: solid;
   border-width: 6px 4px 0px 4px;
   transition: 0.2s;
@@ -1214,7 +1214,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .single-title-zone-classic .category a {
   padding: 0 10px 0 10px;
-  color: #141414;
+  color: #555555;
   border-left: 1px solid rgba(0, 0, 0, 0.42);
   opacity: 0.5;
   transition: 0.1s;
@@ -1251,7 +1251,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .single-title-zone-classic .date {
-  color: #141414;
+  color: #555555;
   opacity: 0.7;
 }
 
@@ -1313,16 +1313,42 @@ header.ad .offcanvas-navigation .social-icons a {
   margin: 3px 0 0 0;
   color: #656667;
   font-family: "TTNorms", "Arial";
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #555555;
+}
+
+@media only screen and (min-width: 577px) {
+  .single-top-area .author-info p {
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
 
 .single-top-area .author-info a {
-  color: #292929;
-  font-family: "TTNorms", "Arial";
+  width: 200px;
+  display: inline-block;
+  color: #555555;
   font-size: 18px;
-  font-weight: 700;
-  transition: 0.2s;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media only screen and (min-width: 577px) {
+  .single-top-area .author-info a {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.2s;
+    width: 100%;
+  }
 }
 
 .single-top-area .author-info a:hover,
@@ -1380,6 +1406,17 @@ header.ad .offcanvas-navigation .social-icons a {
   text-decoration: none;
   box-shadow: inset 0 -5px 0 rgba(124, 141, 191, 0.7);
   transition: 0.2s;
+}
+
+.entry-content figure {
+  margin: 35px auto 35px auto;
+  max-width: 730px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .entry-content figure {
+    max-width: 100%;
+  }
 }
 
 .post .entry-content img,
@@ -1627,7 +1664,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .single-author-bio h3 a {
-  color: #141414;
+  color: #555555;
   font-family: "TTNorms", "Arial";
   transition: 0.2s;
 }
@@ -1725,7 +1762,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .related-posts .custom-card .card.card-empty .card-title a {
-  color: #141414;
+  color: #555555;
 }
 
 .related-posts .custom-card .card.card-empty .card-title a:hover,
@@ -1761,7 +1798,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .related-posts .custom-card .meta-zone .author a:hover,
 .related-posts .custom-card .meta-zone .author a:focus {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -1786,7 +1823,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .posts-navi h3 a {
-  color: #141414;
+  color: #555555;
   line-height: 28px;
   transition: 0.2s;
 }
@@ -1846,7 +1883,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .title-tag {
   margin-left: 7px;
   margin-bottom: 28px;
-  color: #141414;
+  color: #555555;
   font-family: "TTNorms", "Arial";
   font-size: 41px;
   font-weight: 700;
@@ -1871,7 +1908,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .page .entry-content a:hover {
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -1969,7 +2006,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .archive-description h1 {
   margin: 20px 0 25px 0;
-  color: #141414;
+  color: #555555;
   font-size: 35px;
   font-family: "TTNorms", "Arial";
   font-weight: 700;
@@ -1978,8 +2015,13 @@ header.ad .offcanvas-navigation .social-icons a {
 .archive-description p {
   margin: -15px 0 25px 0;
   width: 80%;
-  line-height: 28px;
-  color: #828282;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #a2a2a2;
 }
 
 .archive-description .author-avatar img {
@@ -2043,7 +2085,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .notfound h1,
 .nothingfound h1 {
-  color: #141414;
+  color: #555555;
   font-size: 3.1rem;
   font-family: "TTNorms", "Arial";
 }
@@ -2082,7 +2124,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .allcomments .comment-form textarea:focus {
   border: none;
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   outline: white;
   transition: 0.2s;
 }
@@ -2091,7 +2133,7 @@ header.ad .offcanvas-navigation .social-icons a {
   padding: 10px;
   width: 100%;
   height: 61px;
-  color: #141414;
+  color: #555555;
   font-family: "TTNorms", "Arial";
   font-weight: 500;
 }
@@ -2107,9 +2149,9 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .allcomments #author:focus {
-  color: #141414;
+  color: #555555;
   border: none;
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   outline: white;
   transition: 0.2s;
 }
@@ -2125,9 +2167,9 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .allcomments #email:focus {
-  color: #141414;
+  color: #555555;
   border: none;
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   outline: white;
   transition: 0.2s;
 }
@@ -2143,9 +2185,9 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .allcomments #url:focus {
-  color: #141414;
+  color: #555555;
   border: none;
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   outline: white;
   transition: 0.2s;
 }
@@ -2230,7 +2272,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .allcomments .username {
   margin-bottom: 2px;
-  color: #141414;
+  color: #555555;
   font-family: "TTNorms", "Arial";
   font-size: 17px;
   font-weight: 500;
@@ -2239,7 +2281,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .allcomments .username a {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
 }
 
@@ -2339,7 +2381,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .allcomments .editbutton a {
-  color: #141414;
+  color: #555555;
 }
 
 .allcomments .userreply {
@@ -2348,7 +2390,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .allcomments .userreply a {
-  color: #141414;
+  color: #555555;
 }
 
 .allcomments .userreply i a:hover,
@@ -2369,7 +2411,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .allcomments .comment-reply:hover,
 .allcomments .comment-reply:focus {
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -2403,14 +2445,14 @@ header.ad .offcanvas-navigation .social-icons a {
   padding: 5px 10px 5px 10px;
   float: right;
   width: 50%;
-  color: #141414;
+  color: #555555;
   font-size: 14px;
   font-family: "TTNorms", "Arial";
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: 2px solid #141414;
+  border: 2px solid #555555;
 }
 
 .allcomments .comment-navigation .nav-next a {
@@ -2419,14 +2461,14 @@ header.ad .offcanvas-navigation .social-icons a {
   padding: 5px 10px 5px 10px;
   width: 50%;
   float: right;
-  color: #141414;
+  color: #555555;
   font-size: 14px;
   font-family: "TTNorms", "Arial";
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: 2px solid #141414;
+  border: 2px solid #555555;
 }
 
 .allcomments .submit-button {
@@ -2439,7 +2481,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .allcomments .logged-in-as a {
-  color: #141414;
+  color: #555555;
   font-family: "TTNorms", "Arial";
   font-weight: 500;
 }
@@ -2467,14 +2509,21 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .neori-pagination .next-posts-link a {
-  color: #838383;
   transition: 0.2s;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #a2a2a2;
 }
 
 .neori-pagination .next-posts-link a:hover,
 .neori-pagination .previous-posts-link a:hover {
   text-decoration: none;
-  color: #141414;
+  color: #555555;
 }
 
 .neori-pagination .previous-posts-link {
@@ -2482,7 +2531,14 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .neori-pagination .previous-posts-link a {
-  color: #838383;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #a2a2a2;
 }
 
 .page-links {
@@ -2502,7 +2558,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .page-links a:hover,
 .page-links a:focus {
-  color: #141414;
+  color: #555555;
   transition: 0.3s;
 }
 
@@ -2526,7 +2582,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .navigation.pagination a:hover {
   background: #eaeaea;
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -2600,8 +2656,8 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .blog-post .useravatar {
   margin-right: 10px;
-  width: 26px;
-  height: 26px;
+  width: 27px;
+  height: 27px;
   float: left;
   border-radius: 50%;
 }
@@ -2639,7 +2695,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .blog-post h2 a {
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -2653,16 +2709,20 @@ header.ad .offcanvas-navigation .social-icons a {
 .blog-post .meta,
 .blog-post .meta a {
   margin-bottom: 12px;
-  color: gray;
-  font-size: 15px;
-  font-weight: 400;
   transition: 0.2s;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #a2a2a2;
 }
 
 .blog-post .meta a:hover,
 .blog-post .meta a:focus {
   text-decoration: none;
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -2682,8 +2742,13 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .blog-post p {
-  line-height: 29px;
-  color: #3a3a3a;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #a2a2a2;
 }
 
 /*---------------
@@ -2764,14 +2829,20 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .slice.type1 .card .card-text {
   margin-bottom: 12px;
-  font-size: 16px;
-  color: #909090;
-  line-height: 26px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #a2a2a2;
+  margin-bottom: 20px;
 }
 
 .slice.type1 .card .card-meta {
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 500;
   color: #afafaf;
 }
 
@@ -2785,14 +2856,14 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .slice.type1 .card .card-meta .author a {
-  color: #868e96;
+  color: #555555;
   font-weight: 500;
   transition: 0.2s;
 }
 
 .slice.type1 .card .card-meta .author a:hover,
 .slice.type1 .card .card-meta .author a:focus {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -2870,14 +2941,14 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .slice.type2 .card .card-meta .author a {
-  color: #868e96;
+  color: #555555;
   font-weight: 500;
   transition: 0.2s;
 }
 
 .slice.type2 .card .card-meta .author a:hover,
 .slice.type2 .card .card-meta .author a:focus {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -2962,14 +3033,14 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .slice.type3 .card-meta .author a {
-  color: #868e96;
+  color: #555555;
   font-weight: 500;
   transition: 0.2s;
 }
 
 .slice.type3 .card-meta .author a:hover,
 .slice.type3 .card-meta .author a:focus {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -3278,14 +3349,14 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .slice.type6 .card .card-meta .author a {
-  color: #868e96;
+  color: #555555;
   font-weight: 500;
   transition: 0.2s;
 }
 
 .slice.type6 .card .card-meta .author a:hover,
 .slice.type6 .card .card-meta .author a:focus {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -3420,7 +3491,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .sidebar .widget-title {
-  color: #141414;
+  color: #555555;
   font-size: 12px;
   font-family: "TTNorms", "Arial";
   font-weight: 700;
@@ -3456,7 +3527,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .sidebar .recentcomments .comment-author-link,
 .sidebar .recentcomments .comment-author-link a {
-  color: #141414;
+  color: #555555;
   font-weight: 700;
 }
 
@@ -3468,7 +3539,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .sidebar .recentcomments a:hover,
 .sidebar .recentcomments a:focus {
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -3486,7 +3557,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .sidebar .widget select:focus {
   outline: none !important;
   border-radius: 0;
-  border: 2px solid #141414;
+  border: 2px solid #555555;
   transition: 0.2s;
 }
 
@@ -3518,7 +3589,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 #wp-calendar td a {
   padding-bottom: 4px;
-  color: #141414;
+  color: #555555;
   font-weight: 700;
   transition: 0.2s;
 }
@@ -3539,7 +3610,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .sidebar .widget_rss a {
   display: block;
   margin-bottom: 8px;
-  color: #141414;
+  color: #555555;
   font-size: 16px;
   font-weight: 700;
 }
@@ -3615,7 +3686,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .search-field:focus {
   outline: none;
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   transition: 0.5s;
 }
 
@@ -3722,7 +3793,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .footer .social-icons a:hover,
 .footer .social-icons a:focus {
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -3748,7 +3819,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .footer .credit a:hover,
 .footer .credit a:focus {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -3984,7 +4055,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce-review-link:hover {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
   transition: 0.2s;
 }
@@ -4225,7 +4296,7 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .woocommerce input#author:focus,
 .woocommerce input#email:focus {
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   outline: white;
   transition: 0.2s;
 }
@@ -4331,7 +4402,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce #review_form #respond .form-submit input {
-  color: #141414;
+  color: #555555;
   background: none;
   border: none;
   font-family: "TTNorms", "Arial";
@@ -4555,7 +4626,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce-info a:hover {
-  color: #141414;
+  color: #555555;
   transition: 0.2s;
 }
 
@@ -4593,7 +4664,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce .checkout p input:focus {
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   transition: 0.2s;
 }
 
@@ -4607,7 +4678,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce .checkout p textarea:focus {
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   transition: 0.2s;
 }
 
@@ -4764,7 +4835,7 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .woocommerce-cart table.cart td.actions .coupon .input-text:focus {
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   transition: 0.2s;
 }
 
@@ -4896,7 +4967,7 @@ div.wpcf7 {
 .wpcf7-form textarea:focus {
   font-size: 16px;
   border: none;
-  border-bottom: 2px solid #141414;
+  border-bottom: 2px solid #555555;
   outline: white;
   transition: 0.3s;
 }
@@ -5382,7 +5453,7 @@ div.wpcf7 .wpcf7-form-control {
 
   .sticky-header a:hover .cart-icon,
   .sticky-header a:focus .cart-icon {
-    color: #141414;
+    color: #555555;
     transition: 0.2s;
   }
 
@@ -6322,6 +6393,10 @@ div.wpcf7 .wpcf7-form-control {
   }
 }
 
+.doordash-card-title {
+  margin-bottom: 19px;
+}
+
 .doordash-card-title a {
   font-size: 20px;
   font-weight: bold;
@@ -6374,12 +6449,12 @@ div.wpcf7 .wpcf7-form-control {
 .doordash-sign-up-text {
   color: #565656;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 @media only screen and (min-width: 577px) {
   .doordash-sign-up-text {
-    margin-bottom: 12px;
+    margin-bottom: 15px;
   }
 }
 
@@ -6460,6 +6535,7 @@ div.wpcf7 .wpcf7-form-control {
 .doordash-footer-column li a {
   color: #bbbbbb;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .doordash-footer-menu-list {
@@ -6566,7 +6642,7 @@ div.wpcf7 .wpcf7-form-control {
 }
 
 .doordash-related-post-title a:hover {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
 }
 
@@ -6741,7 +6817,7 @@ Customizing the i-recommend-this heart button on single posts
 
 .doordash-top-header a:hover,
 .doordash-sticky-header-container a:hover {
-  color: #141414;
+  color: #555555;
   text-decoration: none;
 }
 
@@ -6781,13 +6857,24 @@ Customizing the i-recommend-this heart button on single posts
 }
 
 .doordash-post-date {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 800;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
+}
+@media only screen and (min-width: 577px) {
+  .doordash-post-date {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -6837,4 +6924,10 @@ Customizing the i-recommend-this heart button on single posts
 .doordash-all-jobs-container {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (min-width: 577px) {
+  .doordash-all-jobs-container {
+    justify-content: flex-start;
+  }
 }

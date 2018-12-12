@@ -40,7 +40,7 @@
 
         <?php if(!get_theme_mod('neori_slice_type7_custom_excerpt_setting')) : ?>
 
-          <p><?php echo wp_trim_words( get_the_content(), 28, '...' ); ?></p>
+          <p><?php echo wp_trim_words( get_the_content(), 24, '...' ); ?></p>
 
         <?php else: ?> 
 
@@ -84,7 +84,7 @@
 
         <?php if(!get_theme_mod('neori_slice_type7_custom_excerpt_setting')) : ?>
 
-          <p><?php echo wp_trim_words( get_the_content(), 28, '...' ); ?></p>
+          <p><?php echo wp_trim_words( get_the_content(), 24, '...' ); ?></p>
 
         <?php else: ?> 
 
