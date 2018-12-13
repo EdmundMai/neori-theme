@@ -30,7 +30,7 @@ THUMBNAIL & TITLE
 
             <span class="date doordash-post-date">
               <?php the_time( get_option('date_format') ); ?> &nbsp;·&nbsp; 
-              <?php echo (ceil(strlen(get_the_content()) / 300)); ?> min read
+              <?php echo (ceil(strlen(get_the_content()) / 2500)); ?> min read
             </span>
 
           <?php endif; ?>

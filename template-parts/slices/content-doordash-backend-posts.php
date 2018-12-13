@@ -28,7 +28,7 @@
         <span class="author"><?php the_author_posts_link(); ?></span>
         <span class="date"><?php the_time( get_option('date_format') ); ?></span>
         <span>&nbsp;·&nbsp; </span>
-        <span class="doordash-read-time"><?php echo (ceil(strlen(get_the_content()) / 300)); ?> min read</span>
+        <span class="doordash-read-time"><?php echo (ceil(strlen(get_the_content()) / 2500)); ?> min read</span>
 
       </p><!-- /.card-meta -->
 
