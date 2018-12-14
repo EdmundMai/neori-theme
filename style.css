@@ -6530,6 +6530,7 @@ div.wpcf7 .wpcf7-form-control {
 .doordash-footer-header {
   font-size: 16px;
   color: #ffffff;
+  white-space: nowrap;
 }
 
 .doordash-footer-column li a {
@@ -6556,6 +6557,7 @@ div.wpcf7 .wpcf7-form-control {
 
 .doordash-app-link-container {
   margin-top: 41px;
+  white-space: nowrap;
 }
 
 .doordash-app-link {
