@@ -6936,3 +6936,18 @@ Customizing the i-recommend-this heart button on single posts
   margin: 0 auto 25px auto;
   max-width: 730px;
 }
+
+.jetpack-video-wrapper {
+  height: 300px;
+}
+
+@media only screen and (min-width: 577px) {
+  .jetpack-video-wrapper {
+    height: 400px;
+  }
+}
+
+.jetpack-video-wrapper .embed-youtube {
+  height: 100%;
+  width: 100%;
+}
