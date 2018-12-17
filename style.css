@@ -1297,6 +1297,7 @@ header.ad .offcanvas-navigation .social-icons a {
   float: left;
 }
 
+.single-top-area .avatar,
 .single-top-area .useravatar {
   float: left;
   margin-right: 20px;
@@ -1637,6 +1638,7 @@ header.ad .offcanvas-navigation .social-icons a {
   min-height: 0;
 }
 
+.single-author-bio .avatar,
 .single-author-bio .useravatar {
   margin-right: 32px;
   float: left;
@@ -6182,6 +6184,7 @@ div.wpcf7 .wpcf7-form-control {
     height: 410px;
   }
 
+  .single-top-area .avatar,
   .single-top-area .useravatar {
     width: 45px;
     height: 45px;
@@ -6263,6 +6266,7 @@ div.wpcf7 .wpcf7-form-control {
     margin: -20px auto 45px auto;
   }
 
+  .single-author-bio .avatar,
   .single-author-bio .useravatar {
     margin: 0 25px 18px 0;
     width: 60px;
