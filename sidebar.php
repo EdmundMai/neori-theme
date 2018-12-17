@@ -1,4 +1,29 @@
 <?php if ( !is_category() ) : ?>
+
+<?php
+  $orig_post = $post;
+  global $post;
+  $categories = get_the_category($post->ID);
+  if ($categories) :
+?>
+
+<?php
+  $category_ids = array();
+
+  foreach($categories as $individual_category) $category_ids[] = $individual_category->term_id;
+
+  $args=array(
+    'category__in' => $category_ids,
+    'post__not_in' => array($post->ID),
+    'posts_per_page'=> 3,
+    'ignore_sticky_posts'=> 1
+  );
+
+  $related_posts_query = new WP_Query( $args );
+
+  if ($related_posts_query->post_count > 0) :
+?>
+
 <div>
   <h4 class="doordash-sidebar-header">Related Posts</h4>
 
@@ -54,6 +79,8 @@
 
 
 </div><!-- /.related-posts -->
+<?php endif; ?>
+<?php endif; ?>
 <?php endif; ?>
 
 
