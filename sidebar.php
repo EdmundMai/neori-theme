@@ -31,25 +31,6 @@
 
     <?php
 
-      $orig_post = $post;
-      global $post;
-      $categories = get_the_category($post->ID);
-
-      if ($categories) {
-
-        $category_ids = array();
-
-        foreach($categories as $individual_category) $category_ids[] = $individual_category->term_id;
-
-        $args=array(
-          'category__in' => $category_ids,
-          'post__not_in' => array($post->ID),
-          'posts_per_page'=> 3,
-          'ignore_sticky_posts'=> 1
-        );
-
-        $related_posts_query = new WP_Query( $args );
-
         while( $related_posts_query->have_posts() ) {
 
           $related_posts_query->the_post();
@@ -70,7 +51,6 @@
             <?php endif; ?>
 
     <?php }
-                }
       $post = $orig_post;
       wp_reset_postdata();
     ?>
