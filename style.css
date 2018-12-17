@@ -6946,6 +6946,8 @@ Customizing the i-recommend-this heart button on single posts
 @media only screen and (min-width: 577px) {
   .jetpack-video-wrapper {
     height: 400px;
+    max-width: 730px;
+    margin: 0 auto 25px auto;
   }
 }
 
