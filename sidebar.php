@@ -65,7 +65,7 @@
 
 
 <div>
-  <h4 class="doordash-sidebar-header">Related Positions</h4>
+  <h4 class="doordash-sidebar-header">Join Our Team</h4>
   <div class="doordash-related-jobs-container">
   </div>
 
