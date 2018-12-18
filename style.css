@@ -1299,11 +1299,12 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .single-top-area .avatar,
 .single-top-area .useravatar {
-  float: left;
-  margin-right: 20px;
-  width: 57px;
-  height: 57px;
   border-radius: 50%;
+  float: left;
+  height: 57px;
+  margin-right: 20px;
+  object-fit: cover;
+  width: 57px;
 }
 
 .single-top-area .author-info {
@@ -1640,11 +1641,12 @@ header.ad .offcanvas-navigation .social-icons a {
 
 .single-author-bio .avatar,
 .single-author-bio .useravatar {
-  margin-right: 32px;
-  float: left;
-  width: 100px;
-  height: 100px;
   border-radius: 50%;
+  float: left;
+  height: 100px;
+  margin-right: 32px;
+  object-fit: cover;
+  width: 100px;
 }
 
 .single-author-bio.empty .useravatar {
@@ -6680,7 +6682,8 @@ Customizing the i-recommend-this heart button on single posts
 
 -----------------------------------------------------------------*/
 
-.dot-irecommendthis {
+.dot-irecommendthis,
+.dot-irecommendthis:hover {
   width: 50px;
   display: inline-block;
   background-image: url(./img/heart-normal@3x.png);
