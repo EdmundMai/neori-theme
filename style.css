@@ -6977,5 +6977,11 @@ div.doordash-row {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 75px;
+  max-width: 66px;
+}
+
+@media only screen and (min-width: 577px) {
+  .card-meta .author {
+    max-width: 75px;
+  }
 }
