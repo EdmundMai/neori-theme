@@ -2853,6 +2853,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .slice.type1 .card .card-meta img {
   margin-right: 3px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .slice.type1 .card .card-meta .author {
@@ -6961,4 +6962,20 @@ Customizing the i-recommend-this heart button on single posts
 .jetpack-video-wrapper .embed-youtube {
   height: 100%;
   width: 100%;
+}
+
+div.doordash-row {
+  margin: 0;
+}
+
+.card-meta span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-meta .author {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 75px;
 }
