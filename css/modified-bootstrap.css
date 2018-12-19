@@ -94,6 +94,13 @@ h6 {
   margin-bottom: 50px;
 }
 
+@media only screen and (min-width: 577px) {
+  .home .carousel,
+  .page .carousel {
+    padding: 0 25px;
+  }
+}
+
 .home .carousel-inner,
 .page .carousel-inner {
   background: #000000;
