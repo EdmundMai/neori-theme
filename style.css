@@ -2657,12 +2657,14 @@ header.ad .offcanvas-navigation .social-icons a {
   min-height: 30px;
 }
 
+.blog-post .avatar,
 .blog-post .useravatar {
   margin-right: 10px;
-  width: 27px;
-  height: 27px;
+  width: 35px;
+  height: 35px;
   float: left;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .blog-post .author {
