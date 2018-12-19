@@ -1386,7 +1386,7 @@ header.ad .offcanvas-navigation .social-icons a {
   font-style: normal;
   font-weight: 500;
   letter-spacing: normal;
-  line-height: 1.33;
+  line-height: 1.2;
   margin: 0 auto 25px auto;
   max-width: 730px;
 }
@@ -1395,7 +1395,7 @@ header.ad .offcanvas-navigation .social-icons a {
 .post .entry-content li a,
 .post .entry-content dd a {
   color: #424242;
-  box-shadow: inset 0 -5px 0 rgba(124, 141, 191, 0.44);
+  box-shadow: inset 0 -2px 0 #ff3008;
   transition: 0.2s;
 }
 
@@ -2855,6 +2855,8 @@ header.ad .offcanvas-navigation .social-icons a {
   margin-right: 3px;
   border-radius: 50%;
   object-fit: cover;
+  width: 35px;
+  height: 35px;
 }
 
 .slice.type1 .card .card-meta .author {
@@ -6978,11 +6980,11 @@ div.doordash-row {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 66px;
+  max-width: 64px;
 }
 
 @media only screen and (min-width: 577px) {
   .card-meta .author {
-    max-width: 75px;
+    max-width: 74px;
   }
 }
