@@ -8,8 +8,6 @@
 
       <h1><?php single_term_title(''); ?></h1>
 
-      <?php the_archive_description(''); ?>
-
     </div><!-- /.archive-description -->
 
     <div class="row">
