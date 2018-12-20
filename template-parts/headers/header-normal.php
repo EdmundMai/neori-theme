@@ -84,7 +84,7 @@
                 <div class="doordash-search-container">
                   <div class="doordash-search-group">
                     <label class="doordash-search-icon" for="search"></label>
-                    <input class="doordash-search-input" id="search" placeholder="Search for a topic" type="search" name="s" value="<?php the_search_query(); ?> " />
+                    <input class="doordash-search-input" id="search" placeholder="Search for a topic" type="search" name="s"  />
                   </div>
                   <input class="doordash-search-submit" type="submit" name="searchSubmit" value="Search" />
                 </div>
