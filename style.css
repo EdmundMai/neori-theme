@@ -1402,14 +1402,14 @@ header.ad .offcanvas-navigation .social-icons a {
 }
 
 .post .entry-content p {
-  color: #333333;
+  color: #444444;
   font-family: "TTNorms", "Georgia";
-  font-size: 18px;
+  font-size: 16px;
   font-stretch: normal;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: normal;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 0 auto 25px auto;
   max-width: 730px;
 }
