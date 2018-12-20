@@ -23,6 +23,21 @@ const shuffle = array => {
   /*---------------------------------------------------------------
     BACK ON TOP BUTTON
   -----------------------------------------------------------------*/
+
+  $(".doordash-magnify").on("click", () => {
+    $(".doordash-magnify").hide();
+    $(".doordash-header .doordash-sign-up-container").hide();
+    $(".doordash-search-container").css("display", "flex");
+    $(".doordash-search-input").focus();
+  });
+
+  // $(".doordash-search-input").focusout(() => {
+  // console.log("mmmmmmmmm");
+  // $(".doordash-search-container").hide();
+  // $(".doordash-magnify").show();
+  // $(".doordash-sign-up-container").show();
+  // });
+
   $(function() {
     const RELATED_JOBS_SELECTOR = ".doordash-related-jobs-container";
     const ENGINEERING_DEPARTMENT_ID = "2438";

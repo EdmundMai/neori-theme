@@ -80,8 +80,14 @@
               <?php endif; ?>
 
               <form id="navbarsearchform" class="navbarsearchform" role="search" action="<?php echo esc_url( home_url() );  ?>/" method="get">
-
-                <input type="search" name="s" value="<?php the_search_query(); ?> ">
+                <input type="search" class="doordash-magnify" name="dummy">
+                <div class="doordash-search-container">
+                  <div class="doordash-search-group">
+                    <label class="doordash-search-icon" for="search"></label>
+                    <input class="doordash-search-input" id="search" placeholder="Search for a topic" type="search" name="s" value="<?php the_search_query(); ?> " />
+                  </div>
+                  <input class="doordash-search-submit" type="submit" name="searchSubmit" value="Search" />
+                </div>
 
               </form>
 
