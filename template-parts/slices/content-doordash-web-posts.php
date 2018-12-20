@@ -26,9 +26,9 @@
 
         <?php echo get_avatar( get_the_author_meta('user_email'), '35', '' ); ?>
         <span class="author"><?php the_author_posts_link(); ?></span>
-        <span class="date"><?php the_time( get_option('date_format') ); ?></span>
-        <span>&nbsp;·&nbsp; </span>
-        <span class="doordash-read-time"><?php echo (ceil(strlen(get_the_content()) / 2500)); ?> min read</span>
+        <span class="date"><?php the_time( 'M j, Y' ); ?>
+        &nbsp;·&nbsp; 
+        <?php echo (ceil(strlen(get_the_content()) / 2500)); ?> min read</span>
 
 
       </p><!-- /.card-meta -->
