@@ -676,7 +676,7 @@ p {
   margin: 0;
   width: 25px;
   height: 25px;
-  margin-right: 10px;
+  margin-right: 5px;
   background: url(./img/search-icon.svg) no-repeat 0px center;
   background-size: 19px 16px;
   cursor: pointer;
