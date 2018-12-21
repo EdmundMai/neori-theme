@@ -7009,3 +7009,18 @@ div.doordash-row {
     max-width: 107px;
   }
 }
+
+.doordash-search-section {
+  display: flex;
+}
+
+.doordash-cancel-search-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.doordash-cancel-search-link {
+  font-size: 13px;
+  margin-top: 4px;
+  margin-right: 19px;
+}

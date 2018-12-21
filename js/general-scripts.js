@@ -23,11 +23,18 @@ const shuffle = array => {
   /*---------------------------------------------------------------
     BACK ON TOP BUTTON
   -----------------------------------------------------------------*/
+  $(".doordash-cancel-search-link").on("click", e => {
+    e.preventDefault();
+    $(".doordash-magnify").show();
+    $(".doordash-search-container").hide();
+    $(".doordash-header .doordash-sign-up-container").show();
+  });
 
   $(".doordash-magnify").on("click", () => {
     $(".doordash-magnify").hide();
     $(".doordash-header .doordash-sign-up-container").hide();
     $(".doordash-search-container").css("display", "flex");
+    $(".doordash-search-container").css("flex-direction", "column");
     $(".doordash-search-input").focus();
   });
 
